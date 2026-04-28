@@ -1,38 +1,38 @@
 [
   {
     "name": "Initial JS",
-    "path": "dist/assets/index-*.js",
-    "limit": "100 KB",
+    "path": "dist/client/assets/entry.client-*.js",
+    "limit": "115 KB",
     "gzip": true
   },
   {
-    "name": "Initial CSS",
-    "path": "dist/assets/index-*.css",
-    "limit": "20 KB",
-    "gzip": true
-  },
-  {
-    "name": "Map chunk (lazy)",
-    "path": "dist/assets/map-*.js",
-    "limit": "250 KB",
-    "gzip": true
-  },
-  {
-    "name": "3D chunk (lazy)",
-    "path": "dist/assets/three-*.js",
-    "limit": "300 KB",
-    "gzip": true
-  },
-  {
-    "name": "Charts chunk (lazy)",
-    "path": "dist/assets/charts-*.js",
+    "name": "KaTeX chunk (lazy)",
+    "path": "dist/client/assets/katex-*.js",
     "limit": "80 KB",
     "gzip": true
   },
   {
+    "name": "Methodology route",
+    "path": "dist/client/assets/*.methodology-*.js",
+    "limit": "10 KB",
+    "gzip": true
+  },
+  {
+    "name": "Privacy route",
+    "path": "dist/client/assets/*.privacy-*.js",
+    "limit": "5 KB",
+    "gzip": true
+  },
+  {
+    "name": "Simulator route",
+    "path": "dist/client/assets/*.simulator-*.js",
+    "limit": "5 KB",
+    "gzip": true
+  },
+  {
     "name": "Per-locale JSON",
-    "path": "dist/locales/**/*.json",
-    "limit": "30 KB",
+    "path": "dist/client/locales/**/*.json",
+    "limit": "10 KB",
     "gzip": false
   }
 ]

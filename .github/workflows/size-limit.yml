@@ -1,0 +1,38 @@
+name: Size Limit
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: size-limit-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CI: true
+  BUN_VERSION: latest
+
+jobs:
+  size-limit:
+    name: size-limit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; skipping'; fi
+      - name: Run size-limit
+        if: hashFiles('.size-limit.json') != ''
+        uses: andresz1/size-limit-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          skip_step: install
+          build_script: build
