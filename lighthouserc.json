@@ -1,0 +1,46 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "http://localhost:4173/en",
+        "http://localhost:4173/ar",
+        "http://localhost:4173/ja",
+        "http://localhost:4173/de"
+      ],
+      "numberOfRuns": 3,
+      "startServerCommand": "bun run preview --port 4173 --strictPort",
+      "startServerReadyPattern": "4173",
+      "startServerReadyTimeout": 60000,
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75
+        }
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "minScore": 1.0 }],
+        "categories:accessibility": ["error", { "minScore": 1.0 }],
+        "categories:best-practices": ["error", { "minScore": 1.0 }],
+        "categories:seo": ["error", { "minScore": 1.0 }],
+        "largest-contentful-paint": ["error", { "maxNumericValue": 1800 }],
+        "total-blocking-time": ["error", { "maxNumericValue": 100 }],
+        "cumulative-layout-shift": ["error", { "maxNumericValue": 0 }]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".sisyphus/evidence/lhci"
+    }
+  }
+}
