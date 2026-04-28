@@ -49,4 +49,7 @@ export default defineConfig({
       },
     },
   },
+  ssr: {
+    noExternal: ['react-helmet-async'],
+  },
 });

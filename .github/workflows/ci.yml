@@ -103,6 +103,9 @@ jobs:
       - name: Build
         run: |
           if [ -f package.json ]; then bun run build; else mkdir -p dist && printf 'CI bootstrap placeholder\n' > dist/.ci-bootstrap; fi
+      - name: Verify prerender output
+        run: |
+          if [ -f package.json ] && [ -f scripts/verify-prerender.ts ]; then bun run verify:prerender; else echo 'prerender verifier not present yet; skipping'; fi
       - name: Upload dist
         uses: actions/upload-artifact@v4
         with:
