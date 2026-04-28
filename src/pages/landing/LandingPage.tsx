@@ -40,8 +40,8 @@ export default function LandingPage() {
       >
         <div className="relative w-full max-w-[1200px] h-full">
           <img 
-            src="/assets/earth-from-space@1x.webp" 
-            alt="Earth from space" 
+            src="/assets/cosmic-void-bg@1x.webp" 
+            alt="Deep space horizon" 
             width={1200}
             height={720}
             loading="eager"
