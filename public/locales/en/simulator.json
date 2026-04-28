@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Asteroid Diameter",
+    "density": "Asteroid Density",
+    "velocity": "Impact Velocity",
+    "angle": "Impact Angle",
+    "location": "Impact Location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact Energy",
+    "tntEquivalent": "TNT Equivalent",
+    "hiroshimaEquivalent": "Hiroshima Bomb Equivalent",
+    "damageRadius": "Damage Radius",
+    "civilizationRisk": "Civilization Risk",
+    "craterDiameter": "Crater Diameter",
+    "airburstAltitude": "Airburst Altitude"
+  },
+  "civilizationTiers": {
+    "none": "No Threat",
+    "local": "Local Devastation",
+    "regional": "Regional Catastrophe",
+    "continental": "Continental Extinction",
+    "global": "Global Extinction"
+  },
+  "damage": {
+    "count": "{count, plural, =0 {No damage zones} one {# damage zone} other {# damage zones}}",
+    "zoneLabel": "Damage Zone {number}",
+    "radiusLabel": "Radius: {radius} km"
+  },
+  "timeline": {
+    "second1": "1 Second",
+    "minute1": "1 Minute",
+    "hour1": "1 Hour",
+    "day1": "1 Day",
+    "year1": "1 Year"
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Run Simulation",
+    "resetInputs": "Reset Inputs",
+    "saveScenario": "Save Scenario",
+    "shareResults": "Share Results",
+    "viewMethodology": "View Methodology"
+  },
+  "charts": {
+    "energyCurveTitle": "Energy vs Diameter",
+    "damageBreakdownTitle": "Damage Breakdown",
+    "xAxisDiameter": "Diameter (m)",
+    "yAxisEnergy": "Energy (J)"
+  }
+}
