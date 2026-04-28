@@ -68,7 +68,7 @@ jobs:
           if [ -f package.json ] && [ -f vitest.config.ts ]; then bun run test:unit -- --coverage; else echo 'vitest.config not yet; skipping until T2 test harness lands'; fi
       - name: Upload coverage
         if: hashFiles('coverage/**') != ''
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage
           path: coverage
@@ -104,7 +104,7 @@ jobs:
         run: |
           if [ -f package.json ]; then bun run build; else mkdir -p dist && printf 'CI bootstrap placeholder\n' > dist/.ci-bootstrap; fi
       - name: Upload dist
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dist
           path: dist
