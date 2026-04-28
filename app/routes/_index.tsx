@@ -1,10 +1,12 @@
-import { useEffect } from 'react';
-import { useNavigate } from 'react-router';
+import { Outlet } from 'react-router';
 
-export default function IndexRedirect() {
-  const navigate = useNavigate();
-  useEffect(() => {
-    navigate('/en', { replace: true });
-  }, [navigate]);
-  return null;
+export default function IndexPage() {
+  const lang = 'en';
+  const dir = 'ltr';
+
+  return (
+    <div data-locale={lang} data-dir={dir}>
+      <Outlet />
+    </div>
+  );
 }

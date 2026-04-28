@@ -1,8 +1,23 @@
-import { Outlet, Scripts, ScrollRestoration } from 'react-router';
+import { Outlet, Scripts, ScrollRestoration, useLocation } from 'react-router';
+import { useMemo } from 'react';
+import { LOCALES, RTL_LOCALES } from '../react-router.config';
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const location = useLocation();
+  const { lang, dir } = useMemo(() => {
+    const pathLocale = location.pathname.split('/')[1];
+    const validLang =
+      pathLocale != null && pathLocale !== '' && LOCALES.includes(pathLocale as (typeof LOCALES)[number])
+        ? pathLocale
+        : 'en';
+    const dir = RTL_LOCALES.includes(validLang as (typeof RTL_LOCALES)[number])
+      ? 'rtl'
+      : 'ltr';
+    return { lang: validLang, dir };
+  }, [location.pathname]);
+
   return (
-    <html lang="en" dir="ltr">
+    <html lang={lang} dir={dir}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
