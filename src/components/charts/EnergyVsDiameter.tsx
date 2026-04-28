@@ -44,7 +44,7 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
 
   const curveData = useMemo(() => {
     const data = [];
-    for (let d = 1; d <= 20000; d *= 1.5) {
+    for (let d = 1; d <= 10000; d *= 1.5) {
       data.push({
         diameter: d,
         energy: calculateKineticEnergy({
