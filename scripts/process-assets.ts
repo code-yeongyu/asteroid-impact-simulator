@@ -51,10 +51,12 @@ async function processAsset(asset, cacheManifest) {
   const cacheEntry = cacheManifest[slug] ?? { source: 'unknown' };
 
   // Build base pipeline with optional chroma-key. We keep the post-key buffer
-  // in memory once and fork it for each output scale → avoids redundant work.
+  // in memory once and fork it for each output scale - avoids redundant work.
   let basePipeline = sharp(inputPath);
   if (asset.chromaKey && cacheEntry.source === 'imagegen') {
-    log(`${slug}: applying chroma-key (rgb=${asset.chromaKey.rgb.join(',')}, tol=${asset.chromaKey.tolerance})`);
+    log(
+      `${slug}: applying chroma-key (rgb=${asset.chromaKey.rgb.join(',')}, tol=${asset.chromaKey.tolerance})`,
+    );
     basePipeline = await stripChromaKey(basePipeline, asset.chromaKey);
   } else if (asset.chromaKey) {
     log(`${slug}: chroma-key skipped (source=${cacheEntry.source}, alpha already correct)`);
@@ -138,11 +140,11 @@ async function main() {
 
   await mkdir(PUBLIC_DIR, { recursive: true });
   for (const asset of manifest.assets) {
-    log(`\n→ ${asset.slug}`);
+    log(`\n[asset] ${asset.slug}`);
     await processAsset(asset, cacheManifest);
   }
   await pruneOrphans(manifest);
-  log('\n✓ all assets processed');
+  log('\n[ok] all assets processed');
 }
 
 main().catch((err) => {
