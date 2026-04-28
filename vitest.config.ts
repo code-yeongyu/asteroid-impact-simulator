@@ -15,5 +15,10 @@ export default defineConfig({
     setupFiles: ['./tests/setup.ts'],
     include: ['src/**/*.test.{ts,tsx}'],
     css: false,
+    server: {
+      deps: {
+        inline: ['i18next-icu', 'intl-messageformat'],
+      },
+    },
   },
 });

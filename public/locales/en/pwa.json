@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Install Asteroid Impact Simulator?",
+    "description": "Add to your home screen for offline access.",
+    "button": "Install",
+    "dismiss": "Not Now"
+  },
+  "offline": {
+    "notice": "You are offline. Some features may be limited.",
+    "cachedData": "Using cached data."
+  },
+  "update": {
+    "available": "Update Available",
+    "description": "A new version is available. Refresh to update.",
+    "button": "Refresh"
+  },
+  "serviceWorker": {
+    "registered": "App ready for offline use.",
+    "failed": "Offline setup failed."
+  }
+}
