@@ -3,3 +3,7 @@ cache = true
 
 [run]
 shell = "bun"
+
+[test]
+preload = ["./tests/setup-bun.ts"]
+pathIgnorePatterns = ["tests/e2e/**", "tests/a11y/**", "tests/visual/**", "tests/components/**"]
