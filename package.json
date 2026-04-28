@@ -41,6 +41,7 @@
     "@visx/responsive": "^3.5.0",
     "@visx/scale": "^3.5.0",
     "@visx/shape": "^3.5.0",
+    "framer-motion": "^12.38.0",
     "i18next": "^26.0.3",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-chained-backend": "^4.6.0",
