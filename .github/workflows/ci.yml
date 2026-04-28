@@ -1,0 +1,191 @@
+name: CI
+
+on:
+  workflow_call:
+  push:
+    branches:
+      - main
+      - '**'
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CI: true
+  BUN_VERSION: latest
+
+jobs:
+  typecheck:
+    name: typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run typecheck
+        run: |
+          if [ -f package.json ]; then bun run typecheck; else echo 'package.json not present yet; skipping until scaffold lands'; fi
+
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run lint
+        run: |
+          if [ -f package.json ]; then bun run lint; else echo 'package.json not present yet; skipping until scaffold lands'; fi
+
+  test-unit:
+    name: test:unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run unit tests
+        run: |
+          if [ -f package.json ] && [ -f vitest.config.ts ]; then bun run test:unit -- --coverage; else echo 'vitest.config not yet; skipping until T2 test harness lands'; fi
+      - name: Upload coverage
+        if: hashFiles('coverage/**') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage
+          if-no-files-found: ignore
+
+  test-i18n:
+    name: test:i18n
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run i18n coverage
+        run: |
+          if [ -f package.json ]; then bun run test:i18n-coverage; else echo 'package.json not present yet; skipping until scaffold lands'; fi
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Build
+        run: |
+          if [ -f package.json ]; then bun run build; else mkdir -p dist && printf 'CI bootstrap placeholder\n' > dist/.ci-bootstrap; fi
+      - name: Upload dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+          if-no-files-found: error
+
+  test-e2e:
+    name: test:e2e
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run E2E tests
+        run: |
+          if [ -f package.json ] && [ -f playwright.config.ts ]; then bun run test:e2e; else echo 'playwright.config not yet; skipping until T2 test harness lands'; fi
+
+  test-lhci:
+    name: test:lhci
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run Lighthouse CI
+        run: |
+          if [ -f package.json ] && [ -f lighthouserc.json ]; then bun run test:lhci; else echo 'no lhci config yet; skipping until T2 test harness lands'; fi
+
+  test-budget:
+    name: test:budget
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run bundle budget
+        run: |
+          if [ -f package.json ] && [ -f .size-limit.json ]; then bun run test:budget; else echo 'size-limit.json not yet; skipping until T2 test harness lands'; fi
+
+  test-a11y:
+    name: test:a11y
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Install dependencies
+        run: |
+          if [ -f bun.lock ]; then bun install --frozen-lockfile; elif [ -f package.json ]; then bun install; else echo 'package.json not present yet; CI bootstrap only'; fi
+      - name: Run accessibility tests
+        run: |
+          if [ -f package.json ] && find tests/a11y -name '*.a11y.spec.ts' 2>/dev/null | head -1 | grep -q .; then bun run test:a11y; else echo 'no a11y specs yet; skipping until T2 test harness lands'; fi
