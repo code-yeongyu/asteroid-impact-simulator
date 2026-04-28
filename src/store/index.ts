@@ -2,6 +2,7 @@ export {
   hydrateImpactStoreFromLocation,
   IMPACT_STORE_STORAGE_KEY,
   resetImpactStoreForTests,
+  startImpactStoreUrlSync,
   useImpactStore,
 } from './impactStore';
 export { useImpactResult } from './hooks';
