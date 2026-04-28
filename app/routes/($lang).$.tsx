@@ -32,7 +32,7 @@ export default function NotFoundPage() {
         <Button variant="primary">
           <Link to="/">{t('404.home', 'Return to Base')}</Link>
         </Button>
-        <Button variant={"outline" as any}>
+        <Button variant="ghost">
           <Link to="/simulator">{t('404.simulator', 'Launch Simulator')}</Link>
         </Button>
       </div>
