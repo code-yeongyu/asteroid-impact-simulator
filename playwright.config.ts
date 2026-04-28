@@ -18,7 +18,7 @@ export default defineConfig({
     toHaveScreenshot: { maxDiffPixelRatio: 0.01 },
   },
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: process.env['PLAYWRIGHT_BASE_URL'] ?? 'http://localhost:4173',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
