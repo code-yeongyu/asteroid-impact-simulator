@@ -3,6 +3,7 @@
   "name": "asteroid-impact-simulator",
   "compatibility_date": "2026-04-28",
   "main": "worker/index.ts",
+  "account_id": "${CLOUDFLARE_ACCOUNT_ID}",
   "assets": {
     "directory": "./dist/client",
     "binding": "ASSETS",
