@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "How Dangerous Would an Asteroid Impact Be?",
+    "subhead": "Explore the physics of asteroid impacts with peer-reviewed formulas and stunning visualizations."
+  },
+  "cta": {
+    "primary": "Launch Simulator",
+    "secondary": "Read Methodology"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically Grounded",
+      "description": "Based on Collins-Melosh-Marcus 2005 physics model."
+    },
+    "visual": {
+      "title": "Stunning Visualizations",
+      "description": "Interactive maps, 3D asteroid models, and energy curves."
+    },
+    "global": {
+      "title": "28 Languages",
+      "description": "Accessible worldwide with full internationalization."
+    },
+    "offline": {
+      "title": "Works Offline",
+      "description": "Install as a PWA and use without internet."
+    }
+  },
+  "stats": {
+    "scenariosRun": "{count, plural, =0 {No scenarios run yet} one {# scenario run} other {# scenarios run}}",
+    "languagesSupported": "28 languages"
+  }
+}

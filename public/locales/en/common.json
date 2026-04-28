@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Home",
+    "simulator": "Simulator",
+    "methodology": "Methodology",
+    "privacy": "Privacy"
+  },
+  "footer": {
+    "copyright": "© {year} Asteroid Impact Simulator",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Report an Issue"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "save": "Save",
+    "share": "Share",
+    "close": "Close",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "download": "Download",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "network": "Network error. Please check your connection.",
+    "notFound": "Page not found",
+    "offline": "You are offline",
+    "invalidInput": "Invalid input",
+    "requiredField": "This field is required",
+    "minValue": "Value must be at least {min}",
+    "maxValue": "Value must be at most {max}",
+    "rangeError": "Value must be between {min} and {max}",
+    "loadingFailed": "Failed to load data"
+  },
+  "meta": {
+    "siteName": "Asteroid Impact Simulator",
+    "siteDescription": "Explore how dangerous an asteroid impact would be for Earth"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageSelector": "Select language"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}
