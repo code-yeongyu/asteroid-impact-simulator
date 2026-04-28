@@ -2,6 +2,8 @@ import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslation } from 'react-i18next';
 import { MapPin, Crosshair } from '@phosphor-icons/react';
+import { SaveScenarioDialog } from './SaveScenarioDialog';
+import { LoadScenarioTray } from './LoadScenarioTray';
 import { impactInputSchema } from '../../lib/schemas';
 
 import type { ImpactInputForm } from '../../lib/schemas';
@@ -70,6 +72,10 @@ export function InputsPanel({ defaultValues, onChange, className }: InputsPanelP
           {t('inputs.presets.title')}
         </span>
         <div className="flex flex-wrap gap-2">
+          <div className="flex gap-2 ml-auto">
+            <SaveScenarioDialog />
+            <LoadScenarioTray />
+          </div>
           {PRESETS.map((preset) => (
             <Button 
               key={preset.id} 
