@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
+import { reactRouter } from '@react-router/dev/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import path from 'node:path';
@@ -8,7 +8,7 @@ import { pwaManifest } from './src/pwa/manifest';
 
 export default defineConfig({
   plugins: [
-    react(),
+    reactRouter(),
     tailwindcss(),
     VitePWA({
       strategies: 'injectManifest',
