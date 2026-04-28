@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "小惑星の直径",
+    "density": "小惑星の密度",
+    "velocity": "衝突速度",
+    "angle": "衝突角",
+    "location": "衝突地点"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "衝突エネルギー",
+    "tntEquivalent": "TNT 換算",
+    "hiroshimaEquivalent": "広島型原爆換算",
+    "damageRadius": "被害半径",
+    "civilizationRisk": "文明リスク",
+    "craterDiameter": "クレーター直径",
+    "airburstAltitude": "空中爆発高度"
+  },
+  "civilizationTiers": {
+    "none": "脅威なし",
+    "local": "局所的壊滅",
+    "regional": "地域的災害",
+    "continental": "大陸規模の絶滅",
+    "global": "全球的絶滅"
+  },
+  "damage": {
+    "count": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "zoneLabel": "被害ゾーン {number}",
+    "radiusLabel": "半径: {radius} km"
+  },
+  "timeline": {
+    "second1": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "minute1": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "hour1": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "day1": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "year1": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "resetInputs": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "saveScenario": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "shareResults": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "viewMethodology": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+  },
+  "charts": {
+    "energyCurveTitle": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "damageBreakdownTitle": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "xAxisDiameter": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "yAxisEnergy": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+  }
+}

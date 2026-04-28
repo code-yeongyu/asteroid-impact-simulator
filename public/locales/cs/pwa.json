@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulátor dopadu asteroidu?",
+    "description": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "update": {
+    "available": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "description": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "button": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "serviceWorker": {
+    "registered": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "failed": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  }
+}

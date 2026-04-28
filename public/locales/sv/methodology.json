@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodik",
+    "description": "Metodik for Asteroidnedslagssimulator — formulas, citations, and limitations."
+  },
+  "title": "Metodik",
+  "subtitle": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+  "readingTime": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+  "sections": {
+    "overview": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "kineticEnergy": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "atmosphericEntry": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "craterDiameter": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "fireballThermal": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "airBlast": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "seismic": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "civilizationRisk": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "limitations": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "citations": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "overview": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "accuracy": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "kineticEnergy": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "energyCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "massCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "atmosphericEntry": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "airburstCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "craterDiameter": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "craterCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "fireballThermal": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "fireballCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "fluxCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "airBlast": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "psi1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "psi3": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "psi5": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "psi20": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "seismic": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "magnitudeCaption": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "civilizationRisk": {
+    "p1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "p2": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "torino": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "limitations": {
+    "intro": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "citations": {
+    "intro": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  }
+}

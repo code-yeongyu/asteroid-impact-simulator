@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulador diameter",
+    "density": "Simulador density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "zoneLabel": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "radiusLabel": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "timeline": {
+    "second1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "minute1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "hour1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "day1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "year1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "resetInputs": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "saveScenario": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "shareResults": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "viewMethodology": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "charts": {
+    "energyCurveTitle": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "damageBreakdownTitle": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "xAxisDiameter": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "yAxisEnergy": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  }
+}

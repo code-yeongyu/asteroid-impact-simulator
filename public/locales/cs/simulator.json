@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulátor diameter",
+    "density": "Simulátor density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "zoneLabel": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "radiusLabel": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "timeline": {
+    "second1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "minute1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "hour1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "day1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "year1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "resetInputs": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "saveScenario": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "shareResults": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "viewMethodology": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "charts": {
+    "energyCurveTitle": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "damageBreakdownTitle": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "xAxisDiameter": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "yAxisEnergy": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  }
+}

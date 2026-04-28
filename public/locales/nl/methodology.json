@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Methodologie",
+    "description": "Methodologie for Asteroïde-inslagsimulator — formulas, citations, and limitations."
+  },
+  "title": "Methodologie",
+  "subtitle": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+  "readingTime": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+  "sections": {
+    "overview": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "kineticEnergy": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "atmosphericEntry": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "craterDiameter": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "fireballThermal": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "airBlast": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "seismic": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "civilizationRisk": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "limitations": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "citations": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "overview": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "accuracy": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "kineticEnergy": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "energyCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "massCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "atmosphericEntry": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "airburstCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "craterDiameter": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "craterCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "fireballThermal": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "fireballCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "fluxCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "airBlast": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "psi1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "psi3": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "psi5": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "psi20": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "seismic": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "magnitudeCaption": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "civilizationRisk": {
+    "p1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "p2": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "torino": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "limitations": {
+    "intro": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "citations": {
+    "intro": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  }
+}

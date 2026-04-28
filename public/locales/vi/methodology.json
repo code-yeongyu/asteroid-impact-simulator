@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Phương pháp",
+    "description": "Phương pháp for Trình mô phỏng va chạm tiểu hành tinh — formulas, citations, and limitations."
+  },
+  "title": "Phương pháp",
+  "subtitle": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+  "readingTime": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+  "sections": {
+    "overview": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "kineticEnergy": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "atmosphericEntry": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "craterDiameter": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "fireballThermal": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "airBlast": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "seismic": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "civilizationRisk": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "limitations": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "citations": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "overview": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "accuracy": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "kineticEnergy": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "energyCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "massCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "atmosphericEntry": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "airburstCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "craterDiameter": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "craterCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "fireballThermal": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "fireballCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "fluxCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "airBlast": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "psi1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "psi3": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "psi5": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "psi20": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "seismic": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "magnitudeCaption": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "civilizationRisk": {
+    "p1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "p2": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "torino": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "limitations": {
+    "intro": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "citations": {
+    "intro": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  }
+}

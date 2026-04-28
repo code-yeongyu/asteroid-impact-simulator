@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Hem",
+    "simulator": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "methodology": "Metodik",
+    "privacy": "Integritet"
+  },
+  "footer": {
+    "copyright": "© {year} Asteroidnedslagssimulator",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Rapporter problem"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "reset": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "save": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "share": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "close": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "copy": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "copied": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "errors": {
+    "generic": "Något gick fel",
+    "network": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "notFound": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "offline": "Offline",
+    "invalidInput": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "meta": {
+    "siteName": "Asteroidnedslagssimulator",
+    "siteDescription": "Utforska hur farligt ett asteroidnedslag skulle vara för jorden"
+  },
+  "accessibility": {
+    "skipToContent": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "menuOpen": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "menuClose": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "languageSelector": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Domů",
+    "simulator": "Simulátor",
+    "methodology": "Metodika",
+    "privacy": "Soukromí"
+  },
+  "footer": {
+    "copyright": "© {year} Simulátor dopadu asteroidu",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Nahlásit problém"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "reset": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "save": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "share": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "close": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "copy": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "copied": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "errors": {
+    "generic": "Něco se pokazilo",
+    "network": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "notFound": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "offline": "Offline",
+    "invalidInput": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "meta": {
+    "siteName": "Simulátor dopadu asteroidu",
+    "siteDescription": "Zjistěte, jak nebezpečný by byl dopad asteroidu pro Zemi"
+  },
+  "accessibility": {
+    "skipToContent": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "menuOpen": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "menuClose": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "languageSelector": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "simulator": "Simulador",
+    "methodology": "Metodología",
+    "privacy": "Privacidad"
+  },
+  "footer": {
+    "copyright": "© {year} Simulador de Impactos de Asteroides",
+    "license": "Licencia MIT",
+    "github": "GitHub",
+    "issues": "Informar de un problema"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "reset": "Restablecer",
+    "save": "Guardar",
+    "share": "Compartir",
+    "close": "Cerrar",
+    "learnMore": "Más información",
+    "getStarted": "Comenzar",
+    "download": "Descargar",
+    "copy": "Copiar",
+    "copied": "Copiado"
+  },
+  "errors": {
+    "generic": "Algo salió mal",
+    "network": "Error de red. Comprueba tu conexión.",
+    "notFound": "Página no encontrada",
+    "offline": "No tienes conexión",
+    "invalidInput": "Entrada no válida",
+    "requiredField": "Este campo es obligatorio",
+    "minValue": "El valor debe ser al menos {min}",
+    "maxValue": "El valor debe ser como máximo {max}",
+    "rangeError": "El valor debe estar entre {min} y {max}",
+    "loadingFailed": "No se pudieron cargar los datos"
+  },
+  "meta": {
+    "siteName": "Simulador de Impactos de Asteroides",
+    "siteDescription": "Explora qué tan peligroso sería el impacto de un asteroide para la Tierra"
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido principal",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "languageSelector": "Seleccionar idioma"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

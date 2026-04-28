@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "simulator": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "methodology": "Metodologi",
+    "privacy": "Privasi"
+  },
+  "footer": {
+    "copyright": "© {year} Simulator Dampak Asteroid",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Reportar problema"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "reset": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "save": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "share": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "close": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "copy": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "copied": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "errors": {
+    "generic": "Terjadi kesalahan",
+    "network": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "notFound": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "offline": "Offline",
+    "invalidInput": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "meta": {
+    "siteName": "Simulator Dampak Asteroid",
+    "siteDescription": "Jelajahi seberapa berbahaya dampak asteroid bagi Bumi"
+  },
+  "accessibility": {
+    "skipToContent": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "menuOpen": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "menuClose": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "languageSelector": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodika",
+    "description": "Metodika for Simulátor dopadu asteroidu — formulas, citations, and limitations."
+  },
+  "title": "Metodika",
+  "subtitle": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+  "readingTime": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+  "sections": {
+    "overview": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "kineticEnergy": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "atmosphericEntry": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "craterDiameter": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "fireballThermal": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "airBlast": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "seismic": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "civilizationRisk": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "limitations": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "citations": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "overview": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "accuracy": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "kineticEnergy": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "energyCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "massCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "atmosphericEntry": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "airburstCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "craterDiameter": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "craterCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "fireballThermal": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "fireballCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "fluxCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "airBlast": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "psi1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "psi3": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "psi5": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "psi20": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "seismic": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "magnitudeCaption": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "civilizationRisk": {
+    "p1": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "p2": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení.",
+    "torino": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "limitations": {
+    "intro": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  },
+  "citations": {
+    "intro": "Lokalizovaný vědecký text: model dopadu asteroidu, vzorce, citace a omezení."
+  }
+}

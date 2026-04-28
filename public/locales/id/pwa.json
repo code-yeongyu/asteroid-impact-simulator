@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulator Dampak Asteroid?",
+    "description": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "update": {
+    "available": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "description": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "button": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "serviceWorker": {
+    "registered": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "failed": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  }
+}

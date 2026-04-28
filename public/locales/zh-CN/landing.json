@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "探索小行星撞击对地球会有多危险?",
+    "subhead": "使用同行评审公式和科学可视化探索小行星撞击物理。"
+  },
+  "cta": {
+    "primary": "开始 模拟器",
+    "secondary": "方法论"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+    }
+  },
+  "stats": {
+    "scenariosRun": "本地化科学说明：小行星撞击模型、公式、引用和限制。",
+    "languagesSupported": "28 种语言"
+  }
+}

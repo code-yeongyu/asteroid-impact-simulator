@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodyka",
+    "description": "Metodyka for Symulator uderzenia asteroidy — formulas, citations, and limitations."
+  },
+  "title": "Metodyka",
+  "subtitle": "Jak działa symulator",
+  "readingTime": "Czas czytania: 8 min",
+  "sections": {
+    "overview": "Przegląd",
+    "kineticEnergy": "Energia kinetyczna",
+    "atmosphericEntry": "Wejście w atmosferę",
+    "craterDiameter": "Średnica krateru",
+    "fireballThermal": "Kula ognia i efekty termiczne",
+    "airBlast": "Fala uderzeniowa",
+    "seismic": "Efekty sejsmiczne",
+    "civilizationRisk": "Ryzyko cywilizacyjne",
+    "limitations": "Ograniczenia",
+    "citations": "Cytowania"
+  },
+  "overview": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "accuracy": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "kineticEnergy": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "energyCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "massCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "atmosphericEntry": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "airburstCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "craterDiameter": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "craterCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "fireballThermal": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "fireballCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "fluxCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "airBlast": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "psi1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "psi3": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "psi5": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "psi20": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "seismic": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "magnitudeCaption": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "civilizationRisk": {
+    "p1": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "p2": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "torino": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "limitations": {
+    "intro": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "citations": {
+    "intro": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  }
+}

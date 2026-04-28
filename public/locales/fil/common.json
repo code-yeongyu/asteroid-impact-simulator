@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "simulator": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "methodology": "Metodolohiya",
+    "privacy": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "footer": {
+    "copyright": "© {year} Simulator ng Epekto ng Asteroid",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Mag-ulat ng isyu"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "reset": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "save": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "share": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "close": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "copy": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "copied": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "errors": {
+    "generic": "May mali",
+    "network": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "notFound": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "offline": "Offline",
+    "invalidInput": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "meta": {
+    "siteName": "Simulator ng Epekto ng Asteroid",
+    "siteDescription": "Tuklasin kung gaano kapanganib ang epekto ng asteroid sa Daigdig"
+  },
+  "accessibility": {
+    "skipToContent": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "menuOpen": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "menuClose": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "languageSelector": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

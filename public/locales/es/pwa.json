@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulador de Impactos de Asteroides?",
+    "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones.",
+    "button": "Descargar",
+    "dismiss": "Cancelar"
+  },
+  "offline": {
+    "notice": "No tienes conexión. Some features may be limited.",
+    "cachedData": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+  },
+  "update": {
+    "available": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones.",
+    "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones.",
+    "button": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+  },
+  "serviceWorker": {
+    "registered": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones.",
+    "failed": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+  }
+}

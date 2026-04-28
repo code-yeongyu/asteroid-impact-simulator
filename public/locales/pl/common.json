@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "simulator": "Symulator",
+    "methodology": "Metodyka",
+    "privacy": "Prywatność"
+  },
+  "footer": {
+    "copyright": "© {year} Symulator uderzenia asteroidy",
+    "license": "Licencja MIT",
+    "github": "GitHub",
+    "issues": "Zgłoś problem"
+  },
+  "buttons": {
+    "submit": "Wyślij",
+    "cancel": "Anuluj",
+    "reset": "Resetuj",
+    "save": "Zapisz",
+    "share": "Udostępnij",
+    "close": "Zamknij",
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Rozpocznij",
+    "download": "Pobierz",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano"
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak",
+    "network": "Błąd sieci. Sprawdź połączenie.",
+    "notFound": "Nie znaleziono strony",
+    "offline": "Jesteś offline",
+    "invalidInput": "Nieprawidłowe dane",
+    "requiredField": "To pole jest wymagane",
+    "minValue": "Wartość musi wynosić co najmniej {min}",
+    "maxValue": "Wartość może wynosić najwyżej {max}",
+    "rangeError": "Wartość musi być między {min} a {max}",
+    "loadingFailed": "Nie udało się załadować danych"
+  },
+  "meta": {
+    "siteName": "Symulator uderzenia asteroidy",
+    "siteDescription": "Sprawdź, jak niebezpieczne byłoby uderzenie asteroidy w Ziemię"
+  },
+  "accessibility": {
+    "skipToContent": "Przejdź do treści głównej",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu",
+    "languageSelector": "Wybierz język"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

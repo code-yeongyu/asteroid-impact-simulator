@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Симулятор diameter",
+    "density": "Симулятор density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "{count, plural, =0 {Нет зон повреждения} one {# зона повреждения} few {# зоны повреждения} many {# зон повреждения} other {# зоны повреждения}}",
+    "zoneLabel": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "radiusLabel": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+  },
+  "timeline": {
+    "second1": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "minute1": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "hour1": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "day1": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "year1": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "resetInputs": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "saveScenario": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "shareResults": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "viewMethodology": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+  },
+  "charts": {
+    "energyCurveTitle": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "damageBreakdownTitle": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "xAxisDiameter": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження.",
+    "yAxisEnergy": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+  }
+}
