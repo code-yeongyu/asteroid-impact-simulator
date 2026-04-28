@@ -143,24 +143,63 @@ export default function Asteroid3D({
   className = '',
   fallbackImage = '/assets/asteroid-rocky@1x.png'
 }: Asteroid3DProps) {
-  const [webGLSupported, setWebGLSupported] = useState(true);
+  const rootRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const [webGLSupported, setWebGLSupported] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const element = rootRef.current;
+    if (!element) return;
+
+    if (!('IntersectionObserver' in window)) {
+      setIsVisible(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      if (entry?.isIntersecting) {
+        setIsVisible(true);
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
 
   // Check WebGL support
   useEffect(() => {
+    if (!isVisible) return;
+
     try {
       const canvas = document.createElement('canvas');
       const gl = canvas.getContext('webgl') ?? canvas.getContext('experimental-webgl');
-      if (!gl) {
-        setWebGLSupported(false);
-      }
+      setWebGLSupported(Boolean(gl));
     } catch (_e) {
       setWebGLSupported(false);
     }
-  }, []);
+  }, [isVisible]);
 
-  if (!webGLSupported) {
+  if (!isVisible) {
     return (
-      <div className={`relative w-full h-full min-h-[300px] flex items-center justify-center bg-void rounded-lg overflow-hidden ${className}`} aria-label={`3D ${type} asteroid fallback image`}>
+      <div ref={rootRef} className={`relative w-full h-full min-h-[300px] rounded-lg overflow-hidden bg-void ${className}`} aria-label={`Deferred 3D ${type} asteroid`}>
+        <AsteroidFallback />
+      </div>
+    );
+  }
+
+  if (webGLSupported === null) {
+    return (
+      <div ref={rootRef} className={`relative w-full h-full min-h-[300px] rounded-lg overflow-hidden bg-void ${className}`} aria-label={`Loading 3D ${type} asteroid`}>
+        <AsteroidFallback />
+      </div>
+    );
+  }
+
+  if (webGLSupported === false) {
+    return (
+      <div ref={rootRef} className={`relative w-full h-full min-h-[300px] flex items-center justify-center bg-void rounded-lg overflow-hidden ${className}`} aria-label={`3D ${type} asteroid fallback image`}>
         <img 
           src={fallbackImage} 
           alt={`${type} asteroid`} 
@@ -172,7 +211,7 @@ export default function Asteroid3D({
   }
 
   return (
-    <div className={`relative w-full h-full min-h-[300px] rounded-lg overflow-hidden bg-void ${className}`} aria-label={`Interactive 3D ${type} asteroid`}>
+    <div ref={rootRef} className={`relative w-full h-full min-h-[300px] rounded-lg overflow-hidden bg-void ${className}`} aria-label={`Interactive 3D ${type} asteroid`}>
       <React.Suspense fallback={<AsteroidFallback />}>
         <Canvas camera={{ position: [0, 0, 4], fov: 45 }} dpr={[1, 2]}>
           <ambientLight intensity={0.2} />
