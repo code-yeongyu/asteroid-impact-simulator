@@ -12,6 +12,7 @@ export const PAGES = ['', 'simulator', 'methodology', 'privacy', 'offline'];
 
 export default {
   ssr: false,
+  buildDirectory: 'dist',
   prerender: () =>
     LOCALES.flatMap((lang) =>
       PAGES.map((p) => (p ? `/${lang}/${p}` : `/${lang}`)),
