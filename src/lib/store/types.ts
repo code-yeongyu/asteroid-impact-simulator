@@ -18,6 +18,7 @@ export interface SimSlice {
   mass: Kilograms | null;
   kineticEnergy: Joules | null;
   result: DomainImpactResult | null;
+  isComputing: boolean;
   setDiameter: (diameter: Meters) => void;
   setDensity: (density: KilogramsPerCubicMeter) => void;
   setVelocity: (velocity: MetersPerSecond) => void;
@@ -25,8 +26,17 @@ export interface SimSlice {
   setLocation: (location: LocationPick) => void;
   setTargetDensity: (targetDensity: KilogramsPerCubicMeter) => void;
   applyPreset: (params: AsteroidParams) => void;
+  hydrateFromUrlSearch: (search: string) => void;
+  computeResultNow: () => void;
   reset: () => void;
 }
+
+export interface ComputedSimSlice {
+  mass: Kilograms | null;
+  kineticEnergy: Joules | null;
+}
+
+export type SimStateSlice = Omit<SimSlice, keyof ComputedSimSlice>;
 
 export interface ScenarioSlice {
   scenarios: readonly SavedScenario[];
@@ -44,6 +54,7 @@ export interface UISlice {
   isMethodologyPanelOpen: boolean;
   activeLocale: string;
   direction: 'ltr' | 'rtl';
+  shareUrlHash: string;
   layers: {
     fireball: boolean;
     thermal: boolean;
@@ -54,8 +65,17 @@ export interface UISlice {
   setMethodologyPanelOpen: (isOpen: boolean) => void;
   setLayerVisible: (layer: keyof UISlice['layers'], isVisible: boolean) => void;
   setLocaleDirection: (locale: string, direction: UISlice['direction']) => void;
+  setShareUrlHash: (shareUrlHash: string) => void;
 }
 
-export type AppStore = SimSlice & ScenarioSlice & UISlice;
+export type AppStoreBase = SimStateSlice & ScenarioSlice & UISlice;
+
+export type AppStore = AppStoreBase & ComputedSimSlice;
+
+export interface PersistedImpactState {
+  params: AsteroidParams;
+  scenarios: readonly SavedScenario[];
+  selectedScenarioId: string | null;
+}
 
 export type ImpactStoreSchema = AppStore;

@@ -1,1 +1,11 @@
-export type { AppStore, ImpactStoreSchema, ScenarioSlice, SimSlice, UISlice } from '../lib/store/types';
+export type {
+  AppStore,
+  AppStoreBase,
+  ComputedSimSlice,
+  ImpactStoreSchema,
+  PersistedImpactState,
+  ScenarioSlice,
+  SimSlice,
+  SimStateSlice,
+  UISlice,
+} from '../lib/store/types';
