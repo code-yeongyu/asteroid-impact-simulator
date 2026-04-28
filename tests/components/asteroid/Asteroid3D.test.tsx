@@ -1,12 +1,11 @@
-
 import { render, screen } from '@testing-library/react';
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, type Mock } from 'vitest';
 import Asteroid3D from '../../../src/components/asteroid/Asteroid3D';
 
 // Mock matchMedia
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: vi.fn().mockImplementation(query => ({
+  value: vi.fn().mockImplementation((query: string) => ({
     matches: false,
     media: query,
     onchange: null,
@@ -27,8 +26,8 @@ class ResizeObserver {
 window.ResizeObserver = ResizeObserver;
 
 // Mock WebGL context to force fallback for testing
-const mockGetContext = vi.fn();
-HTMLCanvasElement.prototype.getContext = mockGetContext as any;
+const mockGetContext: Mock = vi.fn();
+HTMLCanvasElement.prototype.getContext = mockGetContext as unknown as typeof HTMLCanvasElement.prototype.getContext;
 
 describe('Asteroid3D', () => {
   beforeEach(() => {
