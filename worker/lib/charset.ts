@@ -1,4 +1,4 @@
-const TEXT_CONTENT_TYPE_PATTERN = /^text\//i;
+const TEXT_CONTENT_TYPE_PATTERN = /^(text\/|application\/(javascript|json|manifest\+json|xml)|image\/svg\+xml)/i;
 const CHARSET_PATTERN = /;\s*charset=/i;
 
 export function withTextCharset(response: Response): Response {

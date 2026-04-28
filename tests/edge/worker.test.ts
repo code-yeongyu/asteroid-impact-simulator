@@ -43,6 +43,20 @@ describe('Cloudflare Worker edge handler', () => {
     expect(response.headers.get('Content-Type')).toBe('text/html; charset=utf-8');
   });
 
+  it('adds utf-8 charset to XML asset responses', async () => {
+    // given
+    const sitemap = new Response('<urlset />', {
+      headers: { 'Content-Type': 'application/xml' },
+    });
+    const env = createEnv(sitemap);
+
+    // when
+    const response = await worker.fetch(new Request('https://asteroid.example/sitemap.xml'), env);
+
+    // then
+    expect(response.headers.get('Content-Type')).toBe('application/xml; charset=utf-8');
+  });
+
   it('preserves existing charset on text asset responses', async () => {
     // given
     const css = new Response('body{}', {
