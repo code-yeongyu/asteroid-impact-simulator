@@ -1,24 +1,22 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = process.env.PLAYWRIGHT_BASE_URL ?? 'http://localhost:5173';
-
 test.describe('SEO meta tags', () => {
   test('page has all 28 hreflang + x-default', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/simulator`);
+    await page.goto('/en/simulator');
     const links = await page.locator('link[rel="alternate"][hreflang]').count();
     expect(links).toBeGreaterThanOrEqual(29);
     const xdefault = await page.locator('link[rel="alternate"][hreflang="x-default"]').count();
     expect(xdefault).toBe(1);
   });
 
-  test('page has canonical link', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/simulator`);
+  test('page has canonical link', async ({ page, baseURL }) => {
+    await page.goto('/en/simulator');
     const canonical = page.locator('link[rel="canonical"]');
-    await expect(canonical).toHaveAttribute('href', `${BASE_URL}/en/simulator`);
+    await expect(canonical).toHaveAttribute('href', `${baseURL ?? ''}/en/simulator`);
   });
 
   test('page has og:title and og:description', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/simulator`);
+    await page.goto('/en/simulator');
     const ogTitle = page.locator('meta[property="og:title"]');
     const ogDesc = page.locator('meta[property="og:description"]');
     await expect(ogTitle).toHaveAttribute('content', /.+/);
@@ -26,13 +24,13 @@ test.describe('SEO meta tags', () => {
   });
 
   test('page has twitter:card', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/simulator`);
+    await page.goto('/en/simulator');
     const twitterCard = page.locator('meta[name="twitter:card"]');
     await expect(twitterCard).toHaveAttribute('content', 'summary_large_image');
   });
 
   test('page has JSON-LD script', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/simulator`);
+    await page.goto('/en/simulator');
     const jsonLd = page.locator('script[type="application/ld+json"]');
     await expect(jsonLd).toHaveCount(1);
     const content = await jsonLd.textContent();
@@ -43,7 +41,7 @@ test.describe('SEO meta tags', () => {
   });
 
   test('methodology page has TechArticle schema with citations', async ({ page }) => {
-    await page.goto(`${BASE_URL}/en/methodology`);
+    await page.goto('/en/methodology');
     const jsonLd = page.locator('script[type="application/ld+json"]');
     const content = await jsonLd.textContent();
     const parsed = JSON.parse(content ?? '{}') as Record<string, unknown>;
@@ -55,7 +53,7 @@ test.describe('SEO meta tags', () => {
 
 test.describe('sitemap.xml', () => {
   test('sitemap has 140 URLs', async ({ request }) => {
-    const res = await request.get(`${BASE_URL}/sitemap.xml`);
+    const res = await request.get('/sitemap.xml');
     expect(res.status()).toBe(200);
     const body = await res.text();
     const count = (body.match(/<url>/g) ?? []).length;
