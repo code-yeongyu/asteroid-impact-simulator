@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Asteroïde-inslagsimulator?",
+    "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "button": "Downloaden",
+    "dismiss": "Annuleren"
+  },
+  "offline": {
+    "notice": "Je bent offline. Some features may be limited.",
+    "cachedData": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "update": {
+    "available": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "button": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "serviceWorker": {
+    "registered": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "failed": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  }
+}

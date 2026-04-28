@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "simulator": "Simulatore",
+    "methodology": "Metodologia",
+    "privacy": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "footer": {
+    "copyright": "© {year} Simulatore di Impatto Asteroidi",
+    "license": "Licenza MIT",
+    "github": "GitHub",
+    "issues": "Segnala un problema"
+  },
+  "buttons": {
+    "submit": "Invia",
+    "cancel": "Annulla",
+    "reset": "Ripristina",
+    "save": "Salva",
+    "share": "Condividi",
+    "close": "Chiudi",
+    "learnMore": "Scopri di più",
+    "getStarted": "Inizia",
+    "download": "Scarica",
+    "copy": "Copia",
+    "copied": "Copiato"
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto",
+    "network": "Errore di rete. Controlla la connessione.",
+    "notFound": "Pagina non trovata",
+    "offline": "Sei offline",
+    "invalidInput": "Input non valido",
+    "requiredField": "Questo campo è obbligatorio",
+    "minValue": "Il valore deve essere almeno {min}",
+    "maxValue": "Il valore deve essere al massimo {max}",
+    "rangeError": "Il valore deve essere tra {min} e {max}",
+    "loadingFailed": "Impossibile caricare i dati"
+  },
+  "meta": {
+    "siteName": "Simulatore di Impatto Asteroidi",
+    "siteDescription": "Scopri quanto sarebbe pericoloso un impatto asteroidale per la Terra"
+  },
+  "accessibility": {
+    "skipToContent": "Vai al contenuto principale",
+    "menuOpen": "Apri menu",
+    "menuClose": "Chiudi menu",
+    "languageSelector": "Seleziona lingua"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

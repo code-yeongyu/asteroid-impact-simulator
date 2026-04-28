@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Diamètre de l'astéroïde",
+    "density": "Densité de l'astéroïde",
+    "velocity": "Vitesse d’impact",
+    "angle": "Angle d’impact",
+    "location": "Lieu d’impact"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Énergie d’impact",
+    "tntEquivalent": "Équivalent TNT",
+    "hiroshimaEquivalent": "Équivalent bombe d’Hiroshima",
+    "damageRadius": "Rayon des dégâts",
+    "civilizationRisk": "Risque civilisationnel",
+    "craterDiameter": "Diamètre du cratère",
+    "airburstAltitude": "Altitude d’explosion aérienne"
+  },
+  "civilizationTiers": {
+    "none": "Aucune menace",
+    "local": "Dévastation locale",
+    "regional": "Catastrophe régionale",
+    "continental": "Extinction continentale",
+    "global": "Extinction mondiale"
+  },
+  "damage": {
+    "count": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "zoneLabel": "Zone de dégâts {number}",
+    "radiusLabel": "Rayon : {radius} km"
+  },
+  "timeline": {
+    "second1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "minute1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "hour1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "day1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "year1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "resetInputs": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "saveScenario": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "shareResults": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "viewMethodology": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "charts": {
+    "energyCurveTitle": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "damageBreakdownTitle": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "xAxisDiameter": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "yAxisEnergy": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  }
+}

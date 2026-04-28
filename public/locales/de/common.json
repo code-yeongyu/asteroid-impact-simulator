@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "simulator": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "methodology": "Methodik",
+    "privacy": "Datenschutz"
+  },
+  "footer": {
+    "copyright": "© {year} Asteroiden-Einschlag-Simulator",
+    "license": "MIT-Lizenz",
+    "github": "GitHub",
+    "issues": "Problem melden"
+  },
+  "buttons": {
+    "submit": "Absenden",
+    "cancel": "Abbrechen",
+    "reset": "Zurücksetzen",
+    "save": "Speichern",
+    "share": "Teilen",
+    "close": "Schließen",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "download": "Herunterladen",
+    "copy": "Kopieren",
+    "copied": "Kopiert"
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen",
+    "network": "Netzwerkfehler. Bitte prüfe deine Verbindung.",
+    "notFound": "Seite nicht gefunden",
+    "offline": "Du bist offline",
+    "invalidInput": "Ungültige Eingabe",
+    "requiredField": "Dieses Feld ist erforderlich",
+    "minValue": "Der Wert muss mindestens {min} sein",
+    "maxValue": "Der Wert darf höchstens {max} sein",
+    "rangeError": "Der Wert muss zwischen {min} und {max} liegen",
+    "loadingFailed": "Daten konnten nicht geladen werden"
+  },
+  "meta": {
+    "siteName": "Asteroiden-Einschlag-Simulator",
+    "siteDescription": "Erkunde, wie gefährlich ein Asteroideneinschlag für die Erde wäre"
+  },
+  "accessibility": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "languageSelector": "Sprache auswählen"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

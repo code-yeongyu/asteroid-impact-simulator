@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "小行星撞擊模擬器?",
+    "description": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "button": "下載",
+    "dismiss": "取消"
+  },
+  "offline": {
+    "notice": "你已離線. Some features may be limited.",
+    "cachedData": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  },
+  "update": {
+    "available": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "description": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "button": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  },
+  "serviceWorker": {
+    "registered": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "failed": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  }
+}

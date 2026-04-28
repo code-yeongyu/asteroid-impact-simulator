@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "استكشف مدى خطورة اصطدام كويكب بالأرض?",
+    "subhead": "استكشف فيزياء اصطدام الكويكبات بصيغ محكّمة وتصورات علمية."
+  },
+  "cta": {
+    "primary": "البدء المحاكي",
+    "secondary": "المنهجية"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "نص علمي مترجم: نموذج اصطدام الكويكبات والصيغ والمراجع والقيود."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "نص علمي مترجم: نموذج اصطدام الكويكبات والصيغ والمراجع والقيود."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "نص علمي مترجم: نموذج اصطدام الكويكبات والصيغ والمراجع والقيود."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "نص علمي مترجم: نموذج اصطدام الكويكبات والصيغ والمراجع والقيود."
+    }
+  },
+  "stats": {
+    "scenariosRun": "{count, plural, =0 {لم تُشغّل أي سيناريوهات بعد} one {سيناريو واحد شُغّل} two {سيناريوهان شُغّلا} few {# سيناريوهات شُغّلت} many {# سيناريو شُغّل} other {# سيناريو شُغّل}}",
+    "languagesSupported": "28 لغة"
+  }
+}

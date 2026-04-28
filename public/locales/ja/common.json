@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "simulator": "シミュレーター",
+    "methodology": "手法",
+    "privacy": "プライバシー"
+  },
+  "footer": {
+    "copyright": "© {year} 小惑星衝突シミュレーター",
+    "license": "MIT ライセンス",
+    "github": "GitHub",
+    "issues": "問題を報告"
+  },
+  "buttons": {
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "reset": "リセット",
+    "save": "保存",
+    "share": "共有",
+    "close": "閉じる",
+    "learnMore": "詳しく見る",
+    "getStarted": "開始",
+    "download": "ダウンロード",
+    "copy": "コピー",
+    "copied": "コピーしました"
+  },
+  "errors": {
+    "generic": "問題が発生しました",
+    "network": "ネットワークエラーです。接続を確認してください。",
+    "notFound": "ページが見つかりません",
+    "offline": "オフラインです",
+    "invalidInput": "無効な入力",
+    "requiredField": "この項目は必須です",
+    "minValue": "値は {min} 以上である必要があります",
+    "maxValue": "値は {max} 以下である必要があります",
+    "rangeError": "値は {min} から {max} の間である必要があります",
+    "loadingFailed": "データの読み込みに失敗しました"
+  },
+  "meta": {
+    "siteName": "小惑星衝突シミュレーター",
+    "siteDescription": "小惑星衝突が地球にどれほど危険かを調べます"
+  },
+  "accessibility": {
+    "skipToContent": "メインコンテンツへ移動",
+    "menuOpen": "メニューを開く",
+    "menuClose": "メニューを閉じる",
+    "languageSelector": "言語を選択"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

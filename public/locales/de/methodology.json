@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Methodik",
+    "description": "Methodik for Asteroiden-Einschlag-Simulator — formulas, citations, and limitations."
+  },
+  "title": "Methodik",
+  "subtitle": "Wie der Simulator funktioniert",
+  "readingTime": "Lesezeit: 8 Min.",
+  "sections": {
+    "overview": "Überblick",
+    "kineticEnergy": "Kinetische Energie",
+    "atmosphericEntry": "Atmosphärischer Eintritt",
+    "craterDiameter": "Kraterdurchmesser",
+    "fireballThermal": "Feuerball und Wärme",
+    "airBlast": "Luftdruckwelle",
+    "seismic": "Seismische Effekte",
+    "civilizationRisk": "Zivilisationsrisiko",
+    "limitations": "Grenzen",
+    "citations": "Quellen"
+  },
+  "overview": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "accuracy": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "kineticEnergy": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "energyCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "massCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "atmosphericEntry": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "airburstCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "craterDiameter": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "craterCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "fireballThermal": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "fireballCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "fluxCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "airBlast": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "psi1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "psi3": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "psi5": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "psi20": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "seismic": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "magnitudeCaption": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "civilizationRisk": {
+    "p1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "p2": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "torino": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "limitations": {
+    "intro": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "citations": {
+    "intro": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  }
+}

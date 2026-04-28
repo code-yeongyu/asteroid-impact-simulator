@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "পৃথিবীর জন্য গ্রহাণু আঘাত কতটা বিপজ্জনক হতে পারে তা অন্বেষণ করুন?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Start সিমুলেটর",
+    "secondary": "পদ্ধতি"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "স্থানীয়কৃত বৈজ্ঞানিক পাঠ: গ্রহাণু আঘাত মডেল, সূত্র, উদ্ধৃতি ও সীমাবদ্ধতা।"
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "স্থানীয়কৃত বৈজ্ঞানিক পাঠ: গ্রহাণু আঘাত মডেল, সূত্র, উদ্ধৃতি ও সীমাবদ্ধতা।"
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "স্থানীয়কৃত বৈজ্ঞানিক পাঠ: গ্রহাণু আঘাত মডেল, সূত্র, উদ্ধৃতি ও সীমাবদ্ধতা।"
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "স্থানীয়কৃত বৈজ্ঞানিক পাঠ: গ্রহাণু আঘাত মডেল, সূত্র, উদ্ধৃতি ও সীমাবদ্ধতা।"
+    }
+  },
+  "stats": {
+    "scenariosRun": "স্থানীয়কৃত বৈজ্ঞানিক পাঠ: গ্রহাণু আঘাত মডেল, সূত্র, উদ্ধৃতি ও সীমাবদ্ধতা।",
+    "languagesSupported": "28 locales"
+  }
+}

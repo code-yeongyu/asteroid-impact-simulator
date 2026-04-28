@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulatore di Impatto Asteroidi?",
+    "description": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "button": "Scarica",
+    "dismiss": "Annulla"
+  },
+  "offline": {
+    "notice": "Sei offline. Some features may be limited.",
+    "cachedData": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "update": {
+    "available": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "description": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "button": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "serviceWorker": {
+    "registered": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "failed": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  }
+}

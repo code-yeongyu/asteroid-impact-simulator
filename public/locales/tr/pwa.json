@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Asteroit Çarpma Simülatörü?",
+    "description": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "update": {
+    "available": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "description": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "button": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "serviceWorker": {
+    "registered": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "failed": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  }
+}

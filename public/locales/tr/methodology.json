@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Yöntem",
+    "description": "Yöntem for Asteroit Çarpma Simülatörü — formulas, citations, and limitations."
+  },
+  "title": "Yöntem",
+  "subtitle": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+  "readingTime": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+  "sections": {
+    "overview": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "kineticEnergy": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "atmosphericEntry": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "craterDiameter": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "fireballThermal": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "airBlast": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "seismic": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "civilizationRisk": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "limitations": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "citations": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "overview": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "accuracy": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "kineticEnergy": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "energyCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "massCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "atmosphericEntry": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "airburstCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "craterDiameter": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "craterCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "fireballThermal": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "fireballCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "fluxCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "airBlast": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "psi1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "psi3": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "psi5": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "psi20": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "seismic": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "magnitudeCaption": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "civilizationRisk": {
+    "p1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "p2": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "torino": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "limitations": {
+    "intro": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "citations": {
+    "intro": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  }
+}

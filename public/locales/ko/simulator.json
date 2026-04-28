@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "소행성 지름",
+    "density": "소행성 밀도",
+    "velocity": "충돌 속도",
+    "angle": "충돌 각도",
+    "location": "충돌 위치"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "충돌 에너지",
+    "tntEquivalent": "TNT 환산량",
+    "hiroshimaEquivalent": "히로시마 원폭 환산량",
+    "damageRadius": "피해 반경",
+    "civilizationRisk": "문명 위험",
+    "craterDiameter": "분화구 지름",
+    "airburstAltitude": "공중폭발 고도"
+  },
+  "civilizationTiers": {
+    "none": "위협 없음",
+    "local": "국지적 황폐화",
+    "regional": "지역적 재앙",
+    "continental": "대륙 규모 멸종",
+    "global": "전 지구적 멸종"
+  },
+  "damage": {
+    "count": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "zoneLabel": "피해 구역 {number}",
+    "radiusLabel": "반경: {radius} km"
+  },
+  "timeline": {
+    "second1": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "minute1": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "hour1": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "day1": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "year1": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "resetInputs": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "saveScenario": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "shareResults": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "viewMethodology": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  },
+  "charts": {
+    "energyCurveTitle": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "damageBreakdownTitle": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "xAxisDiameter": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "yAxisEnergy": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  }
+}

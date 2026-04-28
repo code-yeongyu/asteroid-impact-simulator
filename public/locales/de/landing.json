@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Erkunde, wie gefährlich ein Asteroideneinschlag für die Erde wäre?",
+    "subhead": "Erkunde die Physik von Asteroideneinschlägen mit begutachteten Formeln und wissenschaftlichen Visualisierungen."
+  },
+  "cta": {
+    "primary": "Loslegen Simulator",
+    "secondary": "Methodik"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+    }
+  },
+  "stats": {
+    "scenariosRun": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "languagesSupported": "28 Sprachen"
+  }
+}

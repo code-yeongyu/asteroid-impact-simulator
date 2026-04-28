@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulator diameter",
+    "density": "Simulator density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "zoneLabel": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "radiusLabel": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "timeline": {
+    "second1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "minute1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "hour1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "day1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "year1": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "resetInputs": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "saveScenario": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "shareResults": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "viewMethodology": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "charts": {
+    "energyCurveTitle": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "damageBreakdownTitle": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "xAxisDiameter": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "yAxisEnergy": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  }
+}

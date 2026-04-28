@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Trình mô phỏng diameter",
+    "density": "Trình mô phỏng density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "zoneLabel": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "radiusLabel": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "timeline": {
+    "second1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "minute1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "hour1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "day1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "year1": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "resetInputs": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "saveScenario": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "shareResults": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "viewMethodology": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "charts": {
+    "energyCurveTitle": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "damageBreakdownTitle": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "xAxisDiameter": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "yAxisEnergy": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Ana sayfa",
+    "simulator": "Simülatör",
+    "methodology": "Yöntem",
+    "privacy": "Gizlilik"
+  },
+  "footer": {
+    "copyright": "© {year} Asteroit Çarpma Simülatörü",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Sorun bildir"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "reset": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "save": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "share": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "close": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "copy": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "copied": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "errors": {
+    "generic": "Bir şeyler ters gitti",
+    "network": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "notFound": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "offline": "Offline",
+    "invalidInput": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "meta": {
+    "siteName": "Asteroit Çarpma Simülatörü",
+    "siteDescription": "Bir asteroit çarpmasının Dünya için ne kadar tehlikeli olacağını keşfedin"
+  },
+  "accessibility": {
+    "skipToContent": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "menuOpen": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "menuClose": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "languageSelector": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

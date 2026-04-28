@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "소행성 충돌이 지구에 얼마나 위험한지 탐색합니다?",
+    "subhead": "동료 검토된 공식과 과학적 시각화로 소행성 충돌 물리를 탐색합니다."
+  },
+  "cta": {
+    "primary": "시작하기 시뮬레이터",
+    "secondary": "방법론"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+    }
+  },
+  "stats": {
+    "scenariosRun": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "languagesSupported": "28 개 언어"
+  }
+}

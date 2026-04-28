@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulator ng Epekto ng Asteroid?",
+    "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "update": {
+    "available": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "button": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "serviceWorker": {
+    "registered": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "failed": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  }
+}

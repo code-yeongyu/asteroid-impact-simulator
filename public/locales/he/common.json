@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "בית",
+    "simulator": "מדמה",
+    "methodology": "מתודולוגיה",
+    "privacy": "פרטיות"
+  },
+  "footer": {
+    "copyright": "© {year} מדמה פגיעת אסטרואיד",
+    "license": "רישיון MIT",
+    "github": "GitHub",
+    "issues": "דיווח על בעיה"
+  },
+  "buttons": {
+    "submit": "שליחה",
+    "cancel": "ביטול",
+    "reset": "איפוס",
+    "save": "שמירה",
+    "share": "שיתוף",
+    "close": "סגירה",
+    "learnMore": "מידע נוסף",
+    "getStarted": "התחלה",
+    "download": "הורדה",
+    "copy": "העתקה",
+    "copied": "הועתק"
+  },
+  "errors": {
+    "generic": "משהו השתבש",
+    "network": "שגיאת רשת. בדקו את החיבור.",
+    "notFound": "הדף לא נמצא",
+    "offline": "אתם במצב לא מקוון",
+    "invalidInput": "קלט לא תקין",
+    "requiredField": "שדה זה נדרש",
+    "minValue": "הערך חייב להיות לפחות {min}",
+    "maxValue": "הערך חייב להיות לכל היותר {max}",
+    "rangeError": "הערך חייב להיות בין {min} ל-{max}",
+    "loadingFailed": "טעינת הנתונים נכשלה"
+  },
+  "meta": {
+    "siteName": "מדמה פגיעת אסטרואיד",
+    "siteDescription": "גלו עד כמה פגיעת אסטרואיד תהיה מסוכנת לכדור הארץ"
+  },
+  "accessibility": {
+    "skipToContent": "דלג לתוכן הראשי",
+    "menuOpen": "פתיחת תפריט",
+    "menuClose": "סגירת תפריט",
+    "languageSelector": "בחירת שפה"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

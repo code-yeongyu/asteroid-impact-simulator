@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "小惑星衝突が地球にどれほど危険かを調べます?",
+    "subhead": "査読済みの式と科学的可視化で小惑星衝突の物理を探ります。"
+  },
+  "cta": {
+    "primary": "開始 シミュレーター",
+    "secondary": "手法"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。"
+    }
+  },
+  "stats": {
+    "scenariosRun": "ローカライズ済み科学説明：小惑星衝突モデル、式、引用、制限。",
+    "languagesSupported": "28 言語"
+  }
+}

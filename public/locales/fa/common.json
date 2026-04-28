@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "خانه",
+    "simulator": "شبیه‌ساز",
+    "methodology": "روش‌شناسی",
+    "privacy": "حریم خصوصی"
+  },
+  "footer": {
+    "copyright": "© {year} شبیه‌ساز برخورد سیارک",
+    "license": "مجوز MIT",
+    "github": "GitHub",
+    "issues": "گزارش مشکل"
+  },
+  "buttons": {
+    "submit": "ارسال",
+    "cancel": "لغو",
+    "reset": "بازنشانی",
+    "save": "ذخیره",
+    "share": "اشتراک‌گذاری",
+    "close": "بستن",
+    "learnMore": "بیشتر بدانید",
+    "getStarted": "شروع کنید",
+    "download": "دانلود",
+    "copy": "کپی",
+    "copied": "کپی شد"
+  },
+  "errors": {
+    "generic": "مشکلی پیش آمد",
+    "network": "خطای شبکه. اتصال خود را بررسی کنید.",
+    "notFound": "صفحه پیدا نشد",
+    "offline": "آفلاین هستید",
+    "invalidInput": "ورودی نامعتبر",
+    "requiredField": "این فیلد الزامی است",
+    "minValue": "مقدار باید حداقل {min} باشد",
+    "maxValue": "مقدار باید حداکثر {max} باشد",
+    "rangeError": "مقدار باید بین {min} و {max} باشد",
+    "loadingFailed": "بارگذاری داده‌ها ناموفق بود"
+  },
+  "meta": {
+    "siteName": "شبیه‌ساز برخورد سیارک",
+    "siteDescription": "بررسی کنید برخورد سیارک چقدر برای زمین خطرناک است"
+  },
+  "accessibility": {
+    "skipToContent": "پرش به محتوای اصلی",
+    "menuOpen": "باز کردن منو",
+    "menuClose": "بستن منو",
+    "languageSelector": "انتخاب زبان"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

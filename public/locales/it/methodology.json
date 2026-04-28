@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodologia",
+    "description": "Metodologia for Simulatore di Impatto Asteroidi — formulas, citations, and limitations."
+  },
+  "title": "Metodologia",
+  "subtitle": "Come funziona il simulatore",
+  "readingTime": "Tempo di lettura: 8 min",
+  "sections": {
+    "overview": "Panoramica",
+    "kineticEnergy": "Energia cinetica",
+    "atmosphericEntry": "Ingresso atmosferico",
+    "craterDiameter": "Diametro del cratere",
+    "fireballThermal": "Palla di fuoco ed effetti termici",
+    "airBlast": "Onda d’urto aerea",
+    "seismic": "Effetti sismici",
+    "civilizationRisk": "Rischio per la civiltà",
+    "limitations": "Limiti",
+    "citations": "Citazioni"
+  },
+  "overview": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "accuracy": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "kineticEnergy": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "energyCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "massCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "atmosphericEntry": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "airburstCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "craterDiameter": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "craterCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "fireballThermal": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "fireballCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "fluxCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "airBlast": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "psi1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "psi3": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "psi5": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "psi20": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "seismic": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "magnitudeCaption": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "civilizationRisk": {
+    "p1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "p2": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "torino": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "limitations": {
+    "intro": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "citations": {
+    "intro": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  }
+}

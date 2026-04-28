@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Symulator uderzenia asteroidy?",
+    "description": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "button": "Pobierz",
+    "dismiss": "Anuluj"
+  },
+  "offline": {
+    "notice": "Jesteś offline. Some features may be limited.",
+    "cachedData": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "update": {
+    "available": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "description": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "button": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  },
+  "serviceWorker": {
+    "registered": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia.",
+    "failed": "Zlokalizowany tekst naukowy: model uderzenia asteroidy, wzory, cytowania i ograniczenia."
+  }
+}

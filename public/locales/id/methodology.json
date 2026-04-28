@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodologi",
+    "description": "Metodologi for Simulator Dampak Asteroid — formulas, citations, and limitations."
+  },
+  "title": "Metodologi",
+  "subtitle": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+  "readingTime": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+  "sections": {
+    "overview": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "kineticEnergy": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "atmosphericEntry": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "craterDiameter": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "fireballThermal": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "airBlast": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "seismic": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "civilizationRisk": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "limitations": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "citations": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "overview": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "accuracy": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "kineticEnergy": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "energyCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "massCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "atmosphericEntry": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "airburstCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "craterDiameter": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "craterCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "fireballThermal": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "fireballCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "fluxCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "airBlast": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "psi1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "psi3": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "psi5": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "psi20": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "seismic": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "magnitudeCaption": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "civilizationRisk": {
+    "p1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "p2": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "torino": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "limitations": {
+    "intro": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "citations": {
+    "intro": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  }
+}

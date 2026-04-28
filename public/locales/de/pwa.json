@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Asteroiden-Einschlag-Simulator?",
+    "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "button": "Herunterladen",
+    "dismiss": "Abbrechen"
+  },
+  "offline": {
+    "notice": "Du bist offline. Some features may be limited.",
+    "cachedData": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "update": {
+    "available": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "description": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "button": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "serviceWorker": {
+    "registered": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "failed": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  }
+}

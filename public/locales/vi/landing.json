@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Khám phá mức độ nguy hiểm của một va chạm tiểu hành tinh đối với Trái Đất?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Start Trình mô phỏng",
+    "secondary": "Phương pháp"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+    }
+  },
+  "stats": {
+    "scenariosRun": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "languagesSupported": "28 locales"
+  }
+}

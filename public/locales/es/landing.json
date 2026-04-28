@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Explora qué tan peligroso sería el impacto de un asteroide para la Tierra?",
+    "subhead": "Explora la física de los impactos de asteroides con fórmulas revisadas por pares y visualizaciones científicas."
+  },
+  "cta": {
+    "primary": "Comenzar Simulador",
+    "secondary": "Metodología"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones."
+    }
+  },
+  "stats": {
+    "scenariosRun": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citas y limitaciones.",
+    "languagesSupported": "28 idiomas"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "simulator": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "methodology": "Methodologie",
+    "privacy": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+  },
+  "footer": {
+    "copyright": "© {year} Asteroïde-inslagsimulator",
+    "license": "MIT-licentie",
+    "github": "GitHub",
+    "issues": "Probleem melden"
+  },
+  "buttons": {
+    "submit": "Verzenden",
+    "cancel": "Annuleren",
+    "reset": "Resetten",
+    "save": "Opslaan",
+    "share": "Delen",
+    "close": "Sluiten",
+    "learnMore": "Meer informatie",
+    "getStarted": "Aan de slag",
+    "download": "Downloaden",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd"
+  },
+  "errors": {
+    "generic": "Er is iets misgegaan",
+    "network": "Netwerkfout. Controleer je verbinding.",
+    "notFound": "Pagina niet gevonden",
+    "offline": "Je bent offline",
+    "invalidInput": "Ongeldige invoer",
+    "requiredField": "Dit veld is verplicht",
+    "minValue": "Waarde moet ten minste {min} zijn",
+    "maxValue": "Waarde mag maximaal {max} zijn",
+    "rangeError": "Waarde moet tussen {min} en {max} liggen",
+    "loadingFailed": "Gegevens laden mislukt"
+  },
+  "meta": {
+    "siteName": "Asteroïde-inslagsimulator",
+    "siteDescription": "Ontdek hoe gevaarlijk een asteroïde-inslag voor de aarde zou zijn"
+  },
+  "accessibility": {
+    "skipToContent": "Ga naar hoofdinhoud",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten",
+    "languageSelector": "Taal selecteren"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

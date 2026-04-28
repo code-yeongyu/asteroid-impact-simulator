@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulator diameter",
+    "density": "Simulator density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "zoneLabel": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "radiusLabel": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "timeline": {
+    "second1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "minute1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "hour1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "day1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "year1": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "resetInputs": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "saveScenario": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "shareResults": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "viewMethodology": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  },
+  "charts": {
+    "energyCurveTitle": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "damageBreakdownTitle": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "xAxisDiameter": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan.",
+    "yAxisEnergy": "Teks ilmiah terlokalisasi: model dampak asteroid, rumus, kutipan, dan batasan."
+  }
+}

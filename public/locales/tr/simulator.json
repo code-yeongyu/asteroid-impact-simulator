@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simülatör diameter",
+    "density": "Simülatör density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "zoneLabel": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "radiusLabel": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "timeline": {
+    "second1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "minute1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "hour1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "day1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "year1": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "resetInputs": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "saveScenario": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "shareResults": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "viewMethodology": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  },
+  "charts": {
+    "energyCurveTitle": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "damageBreakdownTitle": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "xAxisDiameter": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar.",
+    "yAxisEnergy": "Yerelleştirilmiş bilimsel metin: asteroit çarpma modeli, formüller, kaynaklar ve sınırlamalar."
+  }
+}

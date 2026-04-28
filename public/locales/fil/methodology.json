@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodolohiya",
+    "description": "Metodolohiya for Simulator ng Epekto ng Asteroid — formulas, citations, and limitations."
+  },
+  "title": "Metodolohiya",
+  "subtitle": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+  "readingTime": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+  "sections": {
+    "overview": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "kineticEnergy": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "atmosphericEntry": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "craterDiameter": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "fireballThermal": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "airBlast": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "seismic": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "civilizationRisk": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "limitations": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "citations": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "overview": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "accuracy": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "kineticEnergy": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "energyCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "massCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "atmosphericEntry": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "airburstCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "craterDiameter": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "craterCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "fireballThermal": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "fireballCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "fluxCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "airBlast": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "psi1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "psi3": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "psi5": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "psi20": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "seismic": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "magnitudeCaption": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "civilizationRisk": {
+    "p1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "p2": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "torino": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "limitations": {
+    "intro": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "citations": {
+    "intro": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  }
+}

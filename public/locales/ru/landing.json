@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Узнайте, насколько опасным было бы падение астероида для Земли?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Начать Симулятор",
+    "secondary": "Методология"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Локализованный научный текст: модель падения астероида, формулы, ссылки и ограничения."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Локализованный научный текст: модель падения астероида, формулы, ссылки и ограничения."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Локализованный научный текст: модель падения астероида, формулы, ссылки и ограничения."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Локализованный научный текст: модель падения астероида, формулы, ссылки и ограничения."
+    }
+  },
+  "stats": {
+    "scenariosRun": "{count, plural, =0 {Сценарии еще не запускались} one {# сценарий запущен} few {# сценария запущено} many {# сценариев запущено} other {# сценария запущено}}",
+    "languagesSupported": "28 языков"
+  }
+}

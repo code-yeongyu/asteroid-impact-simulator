@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "simulator": "Simulateur",
+    "methodology": "Méthodologie",
+    "privacy": "Confidentialité"
+  },
+  "footer": {
+    "copyright": "© {year} Simulateur d'impact d'astéroïde",
+    "license": "Licence MIT",
+    "github": "GitHub",
+    "issues": "Signaler un problème"
+  },
+  "buttons": {
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "reset": "Réinitialiser",
+    "save": "Enregistrer",
+    "share": "Partager",
+    "close": "Fermer",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "download": "Télécharger",
+    "copy": "Copier",
+    "copied": "Copié"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue",
+    "network": "Erreur réseau. Vérifiez votre connexion.",
+    "notFound": "Page introuvable",
+    "offline": "Vous êtes hors ligne",
+    "invalidInput": "Entrée non valide",
+    "requiredField": "Ce champ est obligatoire",
+    "minValue": "La valeur doit être au moins {min}",
+    "maxValue": "La valeur doit être au plus {max}",
+    "rangeError": "La valeur doit être comprise entre {min} et {max}",
+    "loadingFailed": "Échec du chargement des données"
+  },
+  "meta": {
+    "siteName": "Simulateur d'impact d'astéroïde",
+    "siteDescription": "Découvrez à quel point un impact d'astéroïde serait dangereux pour la Terre"
+  },
+  "accessibility": {
+    "skipToContent": "Aller au contenu principal",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "languageSelector": "Sélectionner la langue"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Головна",
+    "simulator": "Симулятор",
+    "methodology": "Методологія",
+    "privacy": "Конфіденційність"
+  },
+  "footer": {
+    "copyright": "© {year} Симулятор падіння астероїда",
+    "license": "Ліцензія MIT",
+    "github": "GitHub",
+    "issues": "Повідомити про проблему"
+  },
+  "buttons": {
+    "submit": "Надіслати",
+    "cancel": "Скасувати",
+    "reset": "Скинути",
+    "save": "Зберегти",
+    "share": "Поділитися",
+    "close": "Закрити",
+    "learnMore": "Дізнатися більше",
+    "getStarted": "Почати",
+    "download": "Завантажити",
+    "copy": "Копіювати",
+    "copied": "Скопійовано"
+  },
+  "errors": {
+    "generic": "Щось пішло не так",
+    "network": "Помилка мережі. Перевірте з’єднання.",
+    "notFound": "Сторінку не знайдено",
+    "offline": "Ви офлайн",
+    "invalidInput": "Недійсні дані",
+    "requiredField": "Це поле обов’язкове",
+    "minValue": "Значення має бути не менше {min}",
+    "maxValue": "Значення має бути не більше {max}",
+    "rangeError": "Значення має бути між {min} і {max}",
+    "loadingFailed": "Не вдалося завантажити дані"
+  },
+  "meta": {
+    "siteName": "Симулятор падіння астероїда",
+    "siteDescription": "Дослідіть, наскільки небезпечним був би удар астероїда для Землі"
+  },
+  "accessibility": {
+    "skipToContent": "Перейти до основного вмісту",
+    "menuOpen": "Відкрити меню",
+    "menuClose": "Закрити меню",
+    "languageSelector": "Вибрати мову"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}
