@@ -54,5 +54,139 @@
     "J": "J",
     "Mt": "Mt",
     "degrees": "°"
-  }
+  },
+  "results": {
+    "empty": "Run a simulation to see impact results.",
+    "hero": {
+      "title": "Impact energy"
+    },
+    "risk": {
+      "label": "Civilization risk",
+      "tiers": {
+        "negligible": "Negligible",
+        "local": "Local devastation",
+        "regional": "Regional catastrophe",
+        "continental": "Continental catastrophe",
+        "global": "Global catastrophe",
+        "extinction": "Extinction-level event"
+      }
+    },
+    "zones": {
+      "crater": {
+        "title": "Crater zone",
+        "desc": "The initial impact excavates a crater around ground zero.",
+        "depth": "Estimated crater depth: {depth} km."
+      },
+      "fireball": {
+        "title": "Fireball zone",
+        "desc": "Thermal radiation can ignite exposed materials and cause severe burns near the impact."
+      },
+      "blast": {
+        "title": "Blast wave",
+        "severe": "Severe structural damage",
+        "moderate": "Moderate building collapse",
+        "light": "Window breakage radius"
+      }
+    },
+    "disclaimer": {
+      "torino": "Risk tiers are educational approximations, not official Torino Scale ratings."
+    }
+  },
+  "timeline": {
+    "ariaLabel": "Impact event timeline",
+    "time": {
+      "seconds": "{count, plural, =0 {impact} one {# second} other {# seconds}}",
+      "minutes": "{count, plural, one {# minute} other {# minutes}}",
+      "hours": "{count, plural, one {# hour} other {# hours}}"
+    },
+    "t0": {
+      "title": "Contact and energy release",
+      "desc": "The asteroid reaches the surface or airburst point and releases kinetic energy almost instantly."
+    },
+    "t10s": {
+      "title": "Fireball expansion",
+      "desc": "The fireball and initial blast front expand outward from the impact point."
+    },
+    "t1m": {
+      "title": "Blast wave arrives",
+      "desc": "Overpressure reaches nearby areas, damaging windows and vulnerable structures."
+    },
+    "t10m": {
+      "title": "Seismic shaking spreads",
+      "desc": "Ground shaking and ejecta effects propagate across the broader region."
+    },
+    "t1h": {
+      "title": "Regional aftermath",
+      "desc": "Dust, fires, and infrastructure disruption dominate the first hour after impact."
+    }
+  },
+  "charts": {
+    "energyVsDiameter": {
+      "title": "Energy versus diameter",
+      "desc": "Logarithmic curve showing impact energy growth as asteroid diameter increases.",
+      "ariaLabel": "Energy versus diameter chart. Current diameter {diameter} meters with energy {energy} joules."
+    },
+    "energyVsVelocity": {
+      "title": "Energy versus velocity",
+      "desc": "Chart showing kinetic energy growth as impact velocity increases.",
+      "ariaLabel": "Energy versus velocity chart. Current velocity {velocity} kilometers per second with energy {energy} joules."
+    },
+    "reference": {
+      "chelyabinsk": "Chelyabinsk meteor",
+      "tunguska": "Tunguska event",
+      "barringer": "Barringer crater impact",
+      "chicxulub": "Chicxulub impact"
+    },
+    "damage": {
+      "ariaLabel": "Damage radius breakdown chart",
+      "tableCaption": "Damage zones and their estimated radii from the impact point",
+      "table": "Damage table",
+      "zone": "Zone",
+      "radius": "Radius",
+      "crater": {
+        "name": "Crater",
+        "desc": "Excavated crater radius."
+      },
+      "fireball": {
+        "name": "Fireball",
+        "desc": "Region engulfed by the initial fireball."
+      },
+      "thermalSevere": {
+        "name": "Severe thermal",
+        "desc": "Thermal radiation likely to ignite clothing."
+      },
+      "thermalModerate": {
+        "name": "Moderate thermal",
+        "desc": "Thermal radiation capable of third-degree burns."
+      },
+      "blastSevere": {
+        "name": "Severe blast",
+        "desc": "Overpressure high enough for lethal structural damage."
+      },
+      "blastModerate": {
+        "name": "Moderate blast",
+        "desc": "Overpressure likely to collapse weaker buildings."
+      },
+      "blastLight": {
+        "name": "Light blast",
+        "desc": "Overpressure likely to break windows."
+      },
+      "seismic": {
+        "name": "Seismic shaking",
+        "desc": "Radius where ground shaking may be felt."
+      },
+      "blast": "Blast",
+      "thermal": "Thermal",
+      "light": {
+        "name": "Light damage"
+      },
+      "moderate": {
+        "name": "Moderate damage"
+      },
+      "severe": {
+        "name": "Severe damage"
+      }
+    }
+  },
+  "results.hero.title": "Impact energy"
 }
