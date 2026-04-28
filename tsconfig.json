@@ -28,6 +28,7 @@
   "include": [
     "src",
     "app",
+    "worker",
     "tests",
     "vite.config.ts",
     "vitest.config.ts",
