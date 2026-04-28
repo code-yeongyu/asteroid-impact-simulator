@@ -30,6 +30,7 @@
     "app",
     "worker",
     "tests",
+    "scripts/csp-hashes.ts",
     "vite.config.ts",
     "vitest.config.ts",
     "playwright.config.ts",

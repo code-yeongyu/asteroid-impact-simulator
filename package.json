@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build && bun run scripts/csp-hashes.ts",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -19,6 +19,7 @@
     "test:budget": "node scripts/check-budget.mjs",
     "test:i18n-coverage": "bun run scripts/check-i18n-coverage.ts",
     "gen:sitemap": "bun run scripts/gen-sitemap.ts",
+    "verify:csp": "bash scripts/verify-csp.sh",
     "generate:assets": "bun run scripts/generate-assets.ts && bun run scripts/process-assets.ts",
     "generate:assets:stage1": "bun run scripts/generate-assets.ts",
     "generate:assets:stage2": "bun run scripts/process-assets.ts",
