@@ -1,0 +1,107 @@
+@import './tokens.css';
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bg-void: var(--bg-void);
+  --color-bg-deep: var(--bg-deep);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-overlay: var(--bg-overlay);
+
+  --color-ink-primary: var(--ink-primary);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-cyan-muted: var(--accent-cyan-muted);
+  --color-accent-cyan-faint: var(--accent-cyan-faint);
+
+  --color-danger-fire: var(--danger-fire);
+  --color-danger-amber: var(--danger-amber);
+  --color-danger-rose: var(--danger-rose);
+
+  --color-success-aurora: var(--success-aurora);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+
+  --radius-sharp: var(--radius-sharp);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-pill: var(--radius-pill);
+
+  --shadow-glow-cyan: var(--shadow-glow-cyan);
+  --shadow-glow-danger: var(--shadow-glow-danger);
+  --shadow-deep: var(--shadow-deep);
+
+  --ease-quintic-out: var(--ease-quintic-out);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-void);
+  color: var(--ink-primary);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: var(--lh-display);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+code,
+kbd,
+pre,
+samp,
+[data-mono] {
+  font-family: var(--font-mono);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
+
+button {
+  cursor: pointer;
+}
+
+button[disabled],
+button[aria-disabled='true'] {
+  cursor: not-allowed;
+}
+
+::selection {
+  background: var(--accent-cyan-faint);
+  color: var(--ink-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

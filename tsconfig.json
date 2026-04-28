@@ -29,6 +29,13 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*", "tests/**/*", "vite.config.ts", "eslint.config.js"],
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "tailwind.config.ts",
+    "eslint.config.js"
+  ],
   "exclude": ["node_modules", "dist"]
 }
