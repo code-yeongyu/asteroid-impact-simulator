@@ -24,6 +24,7 @@ export default defineConfig({
             if (/i18next|intl-messageformat/.test(id)) return 'i18n';
             if (/katex/.test(id)) return 'katex';
           }
+          return undefined;
         },
       },
     },

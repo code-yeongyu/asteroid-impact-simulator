@@ -1,5 +1,8 @@
 # Asteroid Impact Simulator
 
+[![CI](https://github.com/code-yeongyu/asteroid-impact-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/code-yeongyu/asteroid-impact-simulator/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/code-yeongyu/asteroid-impact-simulator/actions/workflows/codeql.yml/badge.svg)](https://github.com/code-yeongyu/asteroid-impact-simulator/actions/workflows/codeql.yml)
+
 A scientifically grounded, visually striking, fully client-side asteroid impact simulator.
 React 19 + Vite 7 + Base UI + Tailwind v4 + 28-language i18n + PWA + Cloudflare Workers.
 
