@@ -1,5 +1,12 @@
 import React, { useMemo, useCallback, useState } from 'react';
-import Map, { Source, Layer, Marker, NavigationControl, ViewStateChangeEvent, MapLayerMouseEvent } from 'react-map-gl/maplibre';
+import Map, {
+  Source,
+  Layer,
+  Marker,
+  NavigationControl,
+  ViewStateChangeEvent,
+  MapLayerMouseEvent,
+} from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import circle from '@turf/circle';
 import { MapPin } from '@phosphor-icons/react';
@@ -68,28 +75,34 @@ export default function ImpactMap({
     }
   }, [lat, lng, viewState.latitude, viewState.longitude]);
 
-  const handleMove = useCallback((evt: ViewStateChangeEvent) => {
-    setViewState(evt.viewState);
-    onViewStateChange?.({
-      latitude: evt.viewState.latitude,
-      longitude: evt.viewState.longitude,
-      zoom: evt.viewState.zoom,
-    });
-  }, [onViewStateChange]);
+  const handleMove = useCallback(
+    (evt: ViewStateChangeEvent) => {
+      setViewState(evt.viewState);
+      onViewStateChange?.({
+        latitude: evt.viewState.latitude,
+        longitude: evt.viewState.longitude,
+        zoom: evt.viewState.zoom,
+      });
+    },
+    [onViewStateChange],
+  );
 
-  const handleClick = useCallback((evt: MapLayerMouseEvent) => {
-    if (!onLocationSelect) return;
-    
-    const { lng, lat } = evt.lngLat;
-    const type = isLikelyWater(lat, lng) ? 'water' : 'land';
-    
-    onLocationSelect({
-      lat,
-      lng,
-      type,
-      placeName: `${Math.abs(lat).toFixed(4)}°${lat >= 0 ? 'N' : 'S'}, ${Math.abs(lng).toFixed(4)}°${lng >= 0 ? 'E' : 'W'}`
-    });
-  }, [onLocationSelect]);
+  const handleClick = useCallback(
+    (evt: MapLayerMouseEvent) => {
+      if (!onLocationSelect) return;
+
+      const { lng, lat } = evt.lngLat;
+      const type = isLikelyWater(lat, lng) ? 'water' : 'land';
+
+      onLocationSelect({
+        lat,
+        lng,
+        type,
+        placeName: `${Math.abs(lat).toFixed(4)}°${lat >= 0 ? 'N' : 'S'}, ${Math.abs(lng).toFixed(4)}°${lng >= 0 ? 'E' : 'W'}`,
+      });
+    },
+    [onLocationSelect],
+  );
 
   // Generate GeoJSON for damage circles
   const damageGeoJSON = useMemo<FeatureCollection<Geometry, GeoJsonProperties> | null>(() => {
@@ -100,48 +113,59 @@ export default function ImpactMap({
 
     // Light blast (outermost)
     if (damageRadii.lightBlast > 0) {
-      features.push(circle(center, damageRadii.lightBlast / 1000, {
-        steps: 64,
-        units: 'kilometers',
-        properties: { type: 'lightBlast' }
-      }));
+      features.push(
+        circle(center, damageRadii.lightBlast / 1000, {
+          steps: 64,
+          units: 'kilometers',
+          properties: { type: 'lightBlast' },
+        }),
+      );
     }
 
     // Severe blast
     if (damageRadii.severeBlast > 0) {
-      features.push(circle(center, damageRadii.severeBlast / 1000, {
-        steps: 64,
-        units: 'kilometers',
-        properties: { type: 'severeBlast' }
-      }));
+      features.push(
+        circle(center, damageRadii.severeBlast / 1000, {
+          steps: 64,
+          units: 'kilometers',
+          properties: { type: 'severeBlast' },
+        }),
+      );
     }
 
     // Fireball
     if (damageRadii.fireball > 0) {
-      features.push(circle(center, damageRadii.fireball / 1000, {
-        steps: 64,
-        units: 'kilometers',
-        properties: { type: 'fireball' }
-      }));
+      features.push(
+        circle(center, damageRadii.fireball / 1000, {
+          steps: 64,
+          units: 'kilometers',
+          properties: { type: 'fireball' },
+        }),
+      );
     }
 
     // Crater (innermost)
     if (damageRadii.crater > 0) {
-      features.push(circle(center, damageRadii.crater / 1000, {
-        steps: 64,
-        units: 'kilometers',
-        properties: { type: 'crater' }
-      }));
+      features.push(
+        circle(center, damageRadii.crater / 1000, {
+          steps: 64,
+          units: 'kilometers',
+          properties: { type: 'crater' },
+        }),
+      );
     }
 
     return {
       type: 'FeatureCollection',
-      features
+      features,
     };
   }, [lat, lng, damageRadii]);
 
   return (
-    <div className={`relative w-full h-full min-h-[400px] rounded-lg overflow-hidden bg-void ${className}`} aria-label="Interactive impact map">
+    <div
+      className={`relative w-full h-full min-h-[400px] rounded-lg overflow-hidden bg-void ${className}`}
+      aria-label="Interactive impact map"
+    >
       <Map
         {...viewState}
         onMove={handleMove}
@@ -152,10 +176,13 @@ export default function ImpactMap({
         attributionControl={false}
       >
         <NavigationControl position="bottom-right" showCompass={false} />
-        
+
         {/* Target Marker */}
         <Marker longitude={lng} latitude={lat} anchor="bottom">
-          <div className="text-danger-fire drop-shadow-glow-danger animate-pulse">
+          <div
+            className="text-danger-fire animate-pulse"
+            style={{ textShadow: '0 0 12px var(--danger-fire)' }}
+          >
             <MapPin size={32} weight="fill" />
           </div>
         </Marker>
@@ -181,7 +208,7 @@ export default function ImpactMap({
                 'line-color': '#ffaa3d',
                 'line-width': 1,
                 'line-opacity': 0.3,
-                'line-dasharray': [2, 2]
+                'line-dasharray': [2, 2],
               }}
             />
 
@@ -250,7 +277,7 @@ export default function ImpactMap({
           </Source>
         )}
       </Map>
-      
+
       {/* Screen reader announcement for location changes */}
       <div className="sr-only" aria-live="polite">
         {`Map centered at ${Math.abs(lat).toFixed(2)} degrees ${lat >= 0 ? 'North' : 'South'}, ${Math.abs(lng).toFixed(2)} degrees ${lng >= 0 ? 'East' : 'West'}`}

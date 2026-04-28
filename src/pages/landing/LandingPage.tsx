@@ -9,7 +9,7 @@ export default function LandingPage() {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ['start start', 'end start']
+    offset: ['start start', 'end start'],
   });
 
   // Parallax effects
@@ -19,13 +19,13 @@ export default function LandingPage() {
   const opacityHero = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
   return (
-    <div ref={containerRef} className="relative min-h-[200vh] bg-bg-void text-ink-primary overflow-hidden">
+    <div
+      ref={containerRef}
+      className="relative min-h-[200vh] bg-bg-void text-ink-primary overflow-hidden"
+    >
       {/* Background Layer - Cosmic Void */}
-      <motion.div 
-        className="fixed inset-0 z-0 pointer-events-none"
-        style={{ y: yBg }}
-      >
-        <div 
+      <motion.div className="fixed inset-0 z-0 pointer-events-none" style={{ y: yBg }}>
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
           style={{ backgroundImage: 'url(/assets/cosmic-void-bg@1x.webp)' }}
         />
@@ -34,33 +34,36 @@ export default function LandingPage() {
       </motion.div>
 
       {/* Earth Layer */}
-      <motion.div 
+      <motion.div
         className="fixed bottom-[-20vh] left-0 right-0 h-[60vh] z-10 pointer-events-none flex justify-center"
         style={{ y: yEarth }}
       >
         <div className="relative w-full max-w-[1200px] h-full">
-          <img 
-            src="/assets/earth-from-space@1x.webp" 
-            alt="Earth from space" 
+          <img
+            src="/assets/earth-from-space@1x.webp"
+            alt="Earth from space"
             width={1200}
             height={720}
             loading="eager"
             fetchPriority="high"
             className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] max-w-none object-cover opacity-80"
-            style={{ maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)' }}
+            style={{
+              maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
+              WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
+            }}
           />
         </div>
       </motion.div>
 
       {/* Asteroid Trajectory Layer */}
-      <motion.div 
+      <motion.div
         className="fixed top-[10vh] right-[10vw] w-[300px] h-[300px] z-20 pointer-events-none hidden md:block"
         style={{ y: yAsteroid }}
       >
         {/* Trajectory line */}
         <div className="absolute top-1/2 left-1/2 w-[200%] h-[2px] bg-gradient-to-r from-transparent via-danger-fire/50 to-transparent -translate-x-1/2 -translate-y-1/2 -rotate-45 blur-[1px]" />
         <div className="absolute top-1/2 left-1/2 w-[200%] h-[1px] bg-gradient-to-r from-transparent via-danger-fire to-transparent -translate-x-1/2 -translate-y-1/2 -rotate-45" />
-        
+
         {/* 3D Asteroid */}
         <div className="absolute inset-0 pointer-events-auto">
           <Asteroid3D type="rocky" size={1.5} />
@@ -70,8 +73,8 @@ export default function LandingPage() {
       {/* Content Layer */}
       <div className="relative z-30">
         {/* Hero Section */}
-        <motion.section 
-          className="min-h-[100vh] flex flex-col items-center justify-center px-6 pt-20 pb-32 text-center"
+        <motion.section
+          className="min-h-[100dvh] flex flex-col items-center justify-center px-6 pt-20 pb-32 text-center"
           style={{ opacity: opacityHero }}
         >
           <motion.div
@@ -84,26 +87,38 @@ export default function LandingPage() {
               <Icon icon={Asterisk} size="sm" weight="bold" className="animate-pulse" />
               Asteroid Impact Simulator
             </span>
-            
-            <h1 className="font-display text-[var(--fs-4xl)] md:text-[var(--fs-5xl)] text-ink-primary leading-[var(--lh-display)] tracking-tight drop-shadow-deep">
+
+            <h1
+              className="font-display text-[var(--fs-4xl)] md:text-[var(--fs-5xl)] text-ink-primary leading-[var(--lh-display)] tracking-tight"
+              style={{ textShadow: '0 18px 60px rgb(0 0 0 / 0.55)' }}
+            >
               Calculate the <span className="text-danger-fire">unthinkable</span>.
             </h1>
-            
+
             <p className="text-ink-muted text-[var(--fs-lg)] max-w-2xl leading-relaxed">
-              A scientifically grounded simulation built on the Collins-Melosh-Marcus 2005 model. 
+              A scientifically grounded simulation built on the Collins-Melosh-Marcus 2005 model.
               Adjust parameters and visualize the devastating effects of cosmic impacts.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Link to="/simulator">
                 <Button variant="primary" size="lg" className="group relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-danger-fire/0 via-white/20 to-danger-fire/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+                  <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <Icon icon={Target} size="sm" weight="bold" />
                   Launch Simulator
-                  <Icon icon={ArrowRight} size="sm" weight="bold" className="ml-2 group-hover:translate-x-1 transition-transform" />
+                  <Icon
+                    icon={ArrowRight}
+                    size="sm"
+                    weight="bold"
+                    className="ml-2 opacity-80 group-hover:opacity-100 transition-opacity"
+                  />
                 </Button>
               </Link>
-              <Button variant="ghost" size="lg" className="backdrop-blur-sm bg-bg-elevated/30 border border-ink-faint/30 hover:bg-bg-elevated/50">
+              <Button
+                variant="ghost"
+                size="lg"
+                className="backdrop-blur-sm bg-bg-elevated/30 border border-ink-faint/30 hover:bg-bg-elevated/50"
+              >
                 <Icon icon={Planet} size="sm" />
                 Read Methodology
               </Button>
@@ -112,58 +127,64 @@ export default function LandingPage() {
         </motion.section>
 
         {/* Features/Details Section (Scroll target) */}
-        <section className="min-h-[100vh] bg-bg-deep/90 backdrop-blur-md border-t border-ink-faint/20 px-6 py-24">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-12">
-              <motion.div 
+        <section className="min-h-[100dvh] bg-bg-deep/90 backdrop-blur-md border-t border-ink-faint/20 px-6 py-24">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col gap-8">
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true, margin: '-100px' }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="flex flex-col gap-4"
+                className="flex flex-col md:flex-row gap-5 md:gap-8 border-b border-ink-faint/20 pb-8"
               >
-                <div className="w-12 h-12 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-accent-cyan">
+                <div className="w-12 h-12 shrink-0 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-accent-cyan">
                   <Icon icon={Target} size="lg" />
                 </div>
-                <h3 className="font-display text-[var(--fs-xl)]">Precise Targeting</h3>
-                <p className="text-ink-muted leading-relaxed">
-                  Select any location on Earth using our interactive MapLibre interface. 
-                  Visualize damage radii overlaid on real-world geography.
-                </p>
+                <div className="flex flex-col gap-3">
+                  <h3 className="font-display text-[var(--fs-xl)]">Precise Targeting</h3>
+                  <p className="text-ink-muted leading-relaxed">
+                    Select any location on Earth using our interactive MapLibre interface. Visualize
+                    damage radii overlaid on real-world geography.
+                  </p>
+                </div>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true, margin: '-100px' }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="flex flex-col gap-4"
+                className="flex flex-col md:flex-row gap-5 md:gap-8 border-b border-ink-faint/20 pb-8"
               >
-                <div className="w-12 h-12 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-danger-amber">
+                <div className="w-12 h-12 shrink-0 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-danger-amber">
                   <Icon icon={Asterisk} size="lg" />
                 </div>
-                <h3 className="font-display text-[var(--fs-xl)]">Scientific Rigor</h3>
-                <p className="text-ink-muted leading-relaxed">
-                  Powered by the peer-reviewed Collins-Melosh-Marcus equations. 
-                  Calculates crater size, thermal radiation, seismic shaking, and ejecta.
-                </p>
+                <div className="flex flex-col gap-3">
+                  <h3 className="font-display text-[var(--fs-xl)]">Scientific Rigor</h3>
+                  <p className="text-ink-muted leading-relaxed">
+                    Powered by the peer-reviewed Collins-Melosh-Marcus equations. Calculates crater
+                    size, thermal radiation, seismic shaking, and ejecta.
+                  </p>
+                </div>
               </motion.div>
 
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true, margin: '-100px' }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="flex flex-col gap-4"
+                className="flex flex-col md:flex-row gap-5 md:gap-8"
               >
-                <div className="w-12 h-12 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-success-aurora">
+                <div className="w-12 h-12 shrink-0 rounded-full bg-bg-elevated border border-ink-faint flex items-center justify-center text-success-aurora">
                   <Icon icon={Planet} size="lg" />
                 </div>
-                <h3 className="font-display text-[var(--fs-xl)]">Historical Scenarios</h3>
-                <p className="text-ink-muted leading-relaxed">
-                  Explore pre-configured historical impacts like the Chicxulub dinosaur-killer, 
-                  Tunguska event, or the Barringer crater.
-                </p>
+                <div className="flex flex-col gap-3">
+                  <h3 className="font-display text-[var(--fs-xl)]">Historical Scenarios</h3>
+                  <p className="text-ink-muted leading-relaxed">
+                    Explore pre-configured historical impacts like the Chicxulub dinosaur-killer,
+                    Tunguska event, or the Barringer crater.
+                  </p>
+                </div>
               </motion.div>
             </div>
           </div>
