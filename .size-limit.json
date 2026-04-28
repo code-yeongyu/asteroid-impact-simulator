@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Initial JS",
+    "path": "dist/assets/index-*.js",
+    "limit": "100 KB",
+    "gzip": true
+  },
+  {
+    "name": "Initial CSS",
+    "path": "dist/assets/index-*.css",
+    "limit": "20 KB",
+    "gzip": true
+  },
+  {
+    "name": "Map chunk (lazy)",
+    "path": "dist/assets/map-*.js",
+    "limit": "250 KB",
+    "gzip": true
+  },
+  {
+    "name": "3D chunk (lazy)",
+    "path": "dist/assets/three-*.js",
+    "limit": "300 KB",
+    "gzip": true
+  },
+  {
+    "name": "Charts chunk (lazy)",
+    "path": "dist/assets/charts-*.js",
+    "limit": "80 KB",
+    "gzip": true
+  },
+  {
+    "name": "Per-locale JSON",
+    "path": "dist/locales/**/*.json",
+    "limit": "30 KB",
+    "gzip": false
+  }
+]
