@@ -1,0 +1,47 @@
+import js from '@eslint/js';
+import globals from 'globals';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
+import i18next from 'eslint-plugin-i18next';
+import tseslint from 'typescript-eslint';
+
+export default tseslint.config(
+  { ignores: ['dist', 'node_modules', '.husky', 'playwright-report', 'test-results'] },
+  js.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+      globals: {
+        ...globals.browser,
+        ...globals.es2022,
+      },
+    },
+    plugins: {
+      react,
+      'react-hooks': reactHooks,
+      'jsx-a11y': jsxA11y,
+      i18next,
+    },
+    rules: {
+      ...react.configs.recommended.rules,
+      ...reactHooks.configs.recommended.rules,
+      ...jsxA11y.configs.recommended.rules,
+      'react/react-in-jsx-scope': 'off',
+      'react/jsx-uses-react': 'off',
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+      '@typescript-eslint/no-explicit-any': 'error',
+      '@typescript-eslint/prefer-nullish-coalescing': 'error',
+      '@typescript-eslint/strict-boolean-expressions': 'error',
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+  }
+);
