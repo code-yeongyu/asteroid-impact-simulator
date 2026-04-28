@@ -20,7 +20,7 @@ export default tseslint.config(
       },
     },
     rules: {
-      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_', caughtErrors: 'all' }],
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/prefer-nullish-coalescing': 'error',
       '@typescript-eslint/strict-boolean-expressions': 'error',
@@ -45,6 +45,9 @@ export default tseslint.config(
       ...jsxA11y.configs.recommended.rules,
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
+      'react/no-unknown-property': ['error', {
+        ignore: ['args', 'attach', 'object', 'rotation', 'position', 'scale', 'intensity', 'geometry', 'material', 'castShadow', 'receiveShadow', 'transparent', 'opacity', 'roughness', 'metalness', 'emissive', 'envMapIntensity', 'side', 'wireframe', 'flatShading', 'color']
+      }]
     },
     settings: {
       react: {
