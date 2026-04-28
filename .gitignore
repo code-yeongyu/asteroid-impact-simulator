@@ -14,8 +14,12 @@ node_modules
 
 # Build outputs
 dist
+build
 dist-ssr
 *.local
+
+# React Router generated types
+.react-router
 
 # Editor directories and files
 .vscode/*

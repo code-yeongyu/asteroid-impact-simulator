@@ -25,6 +25,15 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "tests", "vite.config.ts", "vitest.config.ts", "tailwind.config.ts"],
+  "include": [
+    "src",
+    "app",
+    "tests",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "tailwind.config.ts",
+    "eslint.config.js",
+    "react-router.config.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }
