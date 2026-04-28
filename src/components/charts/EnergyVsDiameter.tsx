@@ -17,7 +17,12 @@ interface EnergyVsDiameterProps {
 
 const MARGIN = { top: 20, right: 20, bottom: 40, left: 60 };
 
-export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy }: EnergyVsDiameterProps) {
+export function EnergyVsDiameter({
+  width,
+  height,
+  currentDiameter,
+  currentEnergy,
+}: EnergyVsDiameterProps) {
   const { t, i18n } = useTranslation();
   const [hoveredMarker, setHoveredMarker] = useState<string | null>(null);
 
@@ -30,7 +35,7 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
         range: [0, innerWidth],
         domain: [1, 20000],
       }),
-    [innerWidth]
+    [innerWidth],
   );
 
   const yScale = useMemo(
@@ -39,7 +44,7 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
         range: [innerHeight, 0],
         domain: [1e9, 1e25],
       }),
-    [innerHeight]
+    [innerHeight],
   );
 
   const curveData = useMemo(() => {
@@ -63,12 +68,30 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
 
   return (
     <div className="relative">
-      <svg width={width} height={height} role="img" aria-label={t('charts.energyVsDiameter.ariaLabel', { diameter: currentDiameter, energy: formatScientific(currentEnergy, i18n.language) })}>
+      <svg
+        width={width}
+        height={height}
+        role="img"
+        aria-label={t('charts.energyVsDiameter.ariaLabel', {
+          diameter: currentDiameter,
+          energy: formatScientific(currentEnergy, i18n.language),
+        })}
+      >
         <title>{t('charts.energyVsDiameter.title')}</title>
         <desc>{t('charts.energyVsDiameter.desc')}</desc>
         <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
-          <GridRows scale={yScale} width={innerWidth} stroke="var(--ink-faint)" strokeDasharray="2,2" />
-          <GridColumns scale={xScale} height={innerHeight} stroke="var(--ink-faint)" strokeDasharray="2,2" />
+          <GridRows
+            scale={yScale}
+            width={innerWidth}
+            stroke="var(--ink-faint)"
+            strokeDasharray="2,2"
+          />
+          <GridColumns
+            scale={xScale}
+            height={innerHeight}
+            stroke="var(--ink-faint)"
+            strokeDasharray="2,2"
+          />
 
           <AxisLeft
             scale={yScale}
@@ -123,12 +146,11 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
             cy={yScale(currentEnergy)}
             r={4}
             fill="var(--accent-cyan)"
-            className="drop-shadow-[0_0_8px_var(--accent-cyan)]"
             data-testid="current-scenario-marker"
           />
         </g>
       </svg>
-      {hoveredMarker !== null && hoveredMarker !== "" && (
+      {hoveredMarker !== null && hoveredMarker !== '' && (
         <div className="absolute top-0 right-0 bg-[var(--bg-elevated)] border border-[var(--ink-faint)] p-2 rounded-[var(--radius-sm)] text-[var(--fs-sm)] text-[var(--ink-primary)] shadow-[var(--shadow-deep)]">
           {t(`charts.reference.${hoveredMarker}`)}
         </div>
