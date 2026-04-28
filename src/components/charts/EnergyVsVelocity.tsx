@@ -60,8 +60,8 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
   if (width < 10) return null;
 
   return (
-    <div className="relative">
-      <svg width={width} height={height} role="img" aria-label={t('charts.energyVsVelocity.ariaLabel', { velocity: currentVelocity, energy: formatScientific(currentEnergy, i18n.language) })}>
+    <div className="relative min-w-0 overflow-hidden">
+      <svg className="block max-w-full" width={width} height={height} role="img" aria-label={t('charts.energyVsVelocity.ariaLabel', { velocity: currentVelocity, energy: formatScientific(currentEnergy, i18n.language) })}>
         <title>{t('charts.energyVsVelocity.title')}</title>
         <desc>{t('charts.energyVsVelocity.desc')}</desc>
         <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
