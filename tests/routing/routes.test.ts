@@ -1,24 +1,14 @@
 import { describe, it, expect } from 'vitest';
-
-const LOCALES = [
-  'en', 'zh-CN', 'zh-TW', 'es', 'hi', 'ar', 'bn', 'pt-BR', 'pt-PT', 'ru',
-  'ja', 'de', 'fr', 'ko', 'it', 'tr', 'vi', 'pl', 'uk', 'nl',
-  'id', 'th', 'fa', 'he', 'sv', 'cs', 'el', 'fil',
-];
-
-const PAGES = ['', 'simulator', 'methodology', 'privacy', 'offline'];
-
-const prerender = () =>
-  LOCALES.flatMap((lang) => PAGES.map((p) => (p ? `/${lang}/${p}` : `/${lang}`)));
+import { PRERENDER_PATHS } from '../../react-router.config';
 
 describe('routing config', () => {
   it('prerender returns 140 paths (28 locales × 5 pages)', () => {
-    const paths = prerender();
+    const paths = PRERENDER_PATHS;
     expect(paths).toHaveLength(140);
   });
 
   it('includes all locale roots', () => {
-    const paths = prerender();
+    const paths = PRERENDER_PATHS;
     expect(paths).toContain('/en');
     expect(paths).toContain('/ar');
     expect(paths).toContain('/ja');
@@ -27,10 +17,10 @@ describe('routing config', () => {
   });
 
   it('includes all page variants', () => {
-    const paths = prerender();
+    const paths = PRERENDER_PATHS;
     expect(paths).toContain('/en/simulator');
     expect(paths).toContain('/en/methodology');
     expect(paths).toContain('/en/privacy');
-    expect(paths).toContain('/en/offline');
+    expect(paths).toContain('/en/this-does-not-exist-404-test');
   });
 });

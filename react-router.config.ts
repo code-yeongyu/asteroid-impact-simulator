@@ -8,13 +8,20 @@ export const LOCALES = [
 
 export const RTL_LOCALES = ['ar', 'fa', 'he'] as const;
 
-export const PAGES = ['', 'simulator', 'methodology', 'privacy', 'offline'];
+export const PRERENDER_PAGES = [
+  '',
+  'simulator',
+  'methodology',
+  'privacy',
+  'this-does-not-exist-404-test',
+] as const;
+
+export const PRERENDER_PATHS = LOCALES.flatMap((lang) =>
+  PRERENDER_PAGES.map((page) => (page ? `/${lang}/${page}` : `/${lang}`)),
+);
 
 export default {
   ssr: false,
   buildDirectory: 'dist',
-  prerender: () =>
-    LOCALES.flatMap((lang) =>
-      PAGES.map((p) => (p ? `/${lang}/${p}` : `/${lang}`)),
-    ),
+  prerender: PRERENDER_PATHS,
 } satisfies Config;
