@@ -112,12 +112,12 @@ export default function DamageBreakdown({ result }: DamageBreakdownProps) {
   };
 
   return (
-    <div className="w-full h-[400px] relative" role="img" aria-label={t('charts.damage.ariaLabel')}>
-      <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 600, height: 400 }}>
+    <div className="w-full h-[400px] relative min-w-0 overflow-hidden" role="img" aria-label={t('charts.damage.ariaLabel')}>
+      <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 320, height: 400 }}>
         <BarChart
           data={data}
           layout="vertical"
-          margin={{ top: 20, right: 30, left: 100, bottom: 20 }}
+          margin={{ top: 20, right: 16, left: 72, bottom: 20 }}
         >
           <XAxis 
             type="number" 
@@ -135,7 +135,7 @@ export default function DamageBreakdown({ result }: DamageBreakdownProps) {
             tick={{ fill: 'var(--ink-muted)', fontSize: 12 }}
             axisLine={{ stroke: 'var(--ink-faint)' }}
             tickLine={false}
-            width={90}
+            width={72}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ fill: 'var(--bg-overlay)' }} />
           <Bar dataKey="radius" isAnimationActive={false} radius={[0, 2, 2, 0]}>

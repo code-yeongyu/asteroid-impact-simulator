@@ -62,8 +62,8 @@ export function EnergyVsDiameter({ width, height, currentDiameter, currentEnergy
   if (width < 10) return null;
 
   return (
-    <div className="relative">
-      <svg width={width} height={height} role="img" aria-label={t('charts.energyVsDiameter.ariaLabel', { diameter: currentDiameter, energy: formatScientific(currentEnergy, i18n.language) })}>
+    <div className="relative min-w-0 overflow-hidden">
+      <svg className="block max-w-full" width={width} height={height} role="img" aria-label={t('charts.energyVsDiameter.ariaLabel', { diameter: currentDiameter, energy: formatScientific(currentEnergy, i18n.language) })}>
         <title>{t('charts.energyVsDiameter.title')}</title>
         <desc>{t('charts.energyVsDiameter.desc')}</desc>
         <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
