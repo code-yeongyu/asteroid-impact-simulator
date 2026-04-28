@@ -17,7 +17,7 @@
     "test:lhci": "lhci autorun",
     "test:a11y": "playwright test --project=a11y",
     "test:budget": "size-limit",
-    "test:i18n-coverage": "echo 'i18n coverage placeholder'",
+    "test:i18n-coverage": "bun run scripts/check-i18n-coverage.ts",
     "test:all": "bun run typecheck && bun run lint && bun run test:unit && bun run test:e2e && bun run test:lhci && bun run test:a11y && bun run test:budget && bun run test:i18n-coverage"
   },
   "dependencies": {

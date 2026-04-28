@@ -1,0 +1,33 @@
+{
+  "title": "Methodology",
+  "subtitle": "How the simulator works",
+  "sections": {
+    "physics": "Physics Engine",
+    "collinsModel": "Collins-Melosh-Marcus 2005",
+    "ablation": "Atmospheric Ablation",
+    "energyCalculation": "Energy Calculation",
+    "damageModel": "Damage Model",
+    "civilizationRisk": "Civilization Risk Assessment",
+    "dataSources": "Data Sources",
+    "limitations": "Limitations"
+  },
+  "citations": {
+    "collins2005": "Collins, Melosh & Marcus (2005). Earth Impact Effects Program.",
+    "nasaNeo": "NASA NEO Program. Near-Earth Object data.",
+    "openstreetmap": "OpenStreetMap contributors. Map data.",
+    "peerReviewed": "All formulas peer-reviewed and published."
+  },
+  "formulas": {
+    "energyTitle": "Kinetic Energy",
+    "energyFormula": "E = ½ · m · v²",
+    "craterTitle": "Crater Diameter",
+    "craterFormula": "D ≈ 1.8 · ρ_t^{-0.11} · ρ_i^{0.33} · g^{-0.22} · E^{0.28}",
+    "airburstTitle": "Airburst Altitude",
+    "airburstFormula": "h_b ≈ 2.5 · ρ_i^{0.33} · D^{0.75} · v^{0.9} · sin(θ)^{0.5}"
+  },
+  "disclaimers": {
+    "notExact": "Results are approximate. Real impacts involve complex variables.",
+    "noCasualties": "This simulator does NOT estimate casualties or tsunami effects.",
+    "educational": "For educational purposes only."
+  }
+}
