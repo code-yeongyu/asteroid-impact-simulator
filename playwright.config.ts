@@ -29,26 +29,30 @@ export default defineConfig({
       testIgnore: /.*\.a11y\.spec\.ts$/,
       use: devices['Desktop Chrome'],
     },
-    {
-      name: 'firefox',
-      testIgnore: /.*\.a11y\.spec\.ts$/,
-      use: devices['Desktop Firefox'],
-    },
-    {
-      name: 'webkit',
-      testIgnore: /.*\.a11y\.spec\.ts$/,
-      use: devices['Desktop Safari'],
-    },
-    {
-      name: 'mobile-chrome',
-      testIgnore: /.*\.a11y\.spec\.ts$/,
-      use: devices['iPhone 14 Pro'],
-    },
-    {
-      name: 'tablet-safari',
-      testIgnore: /.*\.a11y\.spec\.ts$/,
-      use: devices['iPad Pro 11'],
-    },
+    ...(isCI
+      ? []
+      : [
+          {
+            name: 'firefox',
+            testIgnore: /.*\.a11y\.spec\.ts$/,
+            use: devices['Desktop Firefox'],
+          },
+          {
+            name: 'webkit',
+            testIgnore: /.*\.a11y\.spec\.ts$/,
+            use: devices['Desktop Safari'],
+          },
+          {
+            name: 'mobile-chrome',
+            testIgnore: /.*\.a11y\.spec\.ts$/,
+            use: devices['iPhone 14 Pro'],
+          },
+          {
+            name: 'tablet-safari',
+            testIgnore: /.*\.a11y\.spec\.ts$/,
+            use: devices['iPad Pro 11'],
+          },
+        ]),
     {
       name: 'a11y',
       testMatch: /.*\.a11y\.spec\.ts$/,
