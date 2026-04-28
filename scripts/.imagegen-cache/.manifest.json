@@ -1,0 +1,27 @@
+{
+  "earth-from-space": {
+    "specHash": "812376fadffda374",
+    "source": "placeholder",
+    "generatedAt": "2026-04-28T06:56:48.585Z"
+  },
+  "asteroid-iron": {
+    "specHash": "4b1290c7a1d10b59",
+    "source": "placeholder",
+    "generatedAt": "2026-04-28T06:56:48.585Z"
+  },
+  "asteroid-cometary": {
+    "specHash": "26be609a349a8133",
+    "source": "placeholder",
+    "generatedAt": "2026-04-28T06:56:48.585Z"
+  },
+  "asteroid-rocky": {
+    "specHash": "e28e94089aeaebbe",
+    "source": "placeholder",
+    "generatedAt": "2026-04-28T06:56:48.651Z"
+  },
+  "cosmic-void-bg": {
+    "specHash": "99edbebdf0a2b582",
+    "source": "placeholder",
+    "generatedAt": "2026-04-28T06:56:49.236Z"
+  }
+}

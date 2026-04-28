@@ -7,7 +7,7 @@ import i18next from 'eslint-plugin-i18next';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['dist', 'node_modules', '.husky', 'playwright-report', 'test-results'] },
+  { ignores: ['dist', 'node_modules', '.husky', 'playwright-report', 'test-results', 'scripts/**', 'public/**'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
