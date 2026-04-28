@@ -42,7 +42,7 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
 
   const curveData = useMemo(() => {
     const data = [];
-    for (let v = 11; v <= 80; v += 5) {
+    for (let v = 12; v <= 72; v += 5) {
       data.push({
         velocity: v,
         energy: calculateKineticEnergy({

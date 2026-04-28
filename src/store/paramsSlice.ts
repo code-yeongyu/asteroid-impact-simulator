@@ -177,6 +177,14 @@ export function computeDomainImpactResult(params: AsteroidParams): DomainImpactR
     timeline: TIMELINE,
     civilizationRisk: result.civilizationRisk,
     torinoEquivalent: toTorinoEquivalent(result.civilizationRisk),
+    kinetic_energy_J: result.kinetic_energy_J,
+    energyMegatons: result.kinetic_energy_Mt,
+    crater_diameter_km: result.crater_diameter_km,
+    crater_depth_km: result.crater_depth_km,
+    fireball_radius_km: result.fireball_radius_km,
+    overpressure: result.overpressure,
+    thermal_radiation: result.thermal_radiation,
+    seismic: result.seismic,
   };
 }
 
