@@ -11,6 +11,7 @@ import { NumberField } from '../ui/NumberField';
 import { Button } from '../ui/Button';
 import { Select } from '../ui/Select';
 import { cn } from '../ui/cn';
+import { ShareButton } from './ShareButton';
 
 interface InputsPanelProps {
   defaultValues: ImpactInputForm;
@@ -254,6 +255,8 @@ export function InputsPanel({ defaultValues, onChange, className }: InputsPanelP
             {t('inputs.location.placeholder')}
           </Button>
         </div>
+
+        <ShareButton />
 
       </form>
     </div>
