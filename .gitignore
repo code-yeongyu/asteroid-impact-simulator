@@ -1,22 +1,3 @@
-# Dependencies
-node_modules
-.pnp
-.pnp.js
-bun.lockb
-
-# Build outputs
-dist
-dist-ssr
-build
-.vite
-.cache
-
-# Environment
-.env
-.env.local
-.env.*.local
-!.env.example
-
 # Logs
 logs
 *.log
@@ -24,38 +5,34 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-bun-debug.log*
+lerna-debug.log*
 
-# Editor
-.vscode
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-*.swp
-*.swo
-.cursor
-.zed
-
-# OS
 .DS_Store
-Thumbs.db
-*.pem
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Test artifacts
-coverage
-test-results
+# Testing
 playwright-report
-playwright/.cache
-.lighthouseci
-
-# Sisyphus working state
-.sisyphus/evidence
-.sisyphus/notepads
-.sisyphus/boulder.json
-.sisyphus/ralph-loop.local.md
-
-# Cloudflare
-.wrangler
-.dev.vars
+test-results
+coverage
 
 # Misc
 *.tsbuildinfo
-.turbo
+.eslintcache
