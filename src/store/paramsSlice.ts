@@ -1,6 +1,7 @@
 import type { StateCreator } from 'zustand';
 import * as physics from '../lib/physics';
 import type { AppStoreBase, SimStateSlice } from '../lib/store/types';
+import { decodeHydratedParams } from '../lib/url';
 import type { AsteroidParams, DamageZone, DomainImpactResult, LocationPick, TimelineSnapshot, TorinoLevel } from '../types';
 import {
   degrees,
@@ -15,14 +16,6 @@ import {
   metersPerSecond,
 } from '../types';
 
-const DIAMETER_MIN_METERS = 1;
-const DIAMETER_MAX_METERS = 10_000;
-const VELOCITY_MIN_METERS_PER_SECOND = 11_000;
-const VELOCITY_MAX_METERS_PER_SECOND = 72_000;
-const ANGLE_MIN_DEGREES = 1;
-const ANGLE_MAX_DEGREES = 89;
-const DENSITY_MIN_KGM3 = 1000;
-const DENSITY_MAX_KGM3 = 8000;
 const METERS_PER_KILOMETER = 1000;
 const RESULT_DEBOUNCE_MS = 200;
 
@@ -218,85 +211,6 @@ export function cancelPendingImpactResult(): void {
   clearResultTimer();
 }
 
-function readSearchValue(searchParams: URLSearchParams, keys: readonly string[]): string | null {
-  for (const key of keys) {
-    const value = searchParams.get(key);
-    if (value !== null) {
-      return value;
-    }
-  }
-  return null;
-}
-
-function parseBoundedNumber(value: string | null, minimum: number, maximum: number): number | null {
-  if (value === null) {
-    return null;
-  }
-
-  const parsedValue = Number(value);
-  if (!Number.isFinite(parsedValue) || parsedValue < minimum || parsedValue > maximum) {
-    return null;
-  }
-
-  return parsedValue;
-}
-
-function parseVelocity(value: string | null): number | null {
-  if (value === null) {
-    return null;
-  }
-
-  const parsedValue = Number(value);
-  if (!Number.isFinite(parsedValue)) {
-    return null;
-  }
-
-  const metersPerSecondValue = parsedValue > METERS_PER_KILOMETER ? parsedValue : parsedValue * METERS_PER_KILOMETER;
-  if (
-    metersPerSecondValue < VELOCITY_MIN_METERS_PER_SECOND ||
-    metersPerSecondValue > VELOCITY_MAX_METERS_PER_SECOND
-  ) {
-    return null;
-  }
-
-  return metersPerSecondValue;
-}
-
-function createParamsFromSearch(search: string, currentParams: AsteroidParams): AsteroidParams | null {
-  const searchParams = new URLSearchParams(search.startsWith('?') ? search.slice(1) : search);
-  const diameter = parseBoundedNumber(
-    readSearchValue(searchParams, ['d', 'diameter']),
-    DIAMETER_MIN_METERS,
-    DIAMETER_MAX_METERS,
-  );
-  const density = parseBoundedNumber(readSearchValue(searchParams, ['rho', 'density']), DENSITY_MIN_KGM3, DENSITY_MAX_KGM3);
-  const velocity = parseVelocity(readSearchValue(searchParams, ['v', 'velocity']));
-  const angle = parseBoundedNumber(
-    readSearchValue(searchParams, ['theta', 'angle']),
-    ANGLE_MIN_DEGREES,
-    ANGLE_MAX_DEGREES,
-  );
-  const lat = parseBoundedNumber(readSearchValue(searchParams, ['lat']), -90, 90);
-  const lng = parseBoundedNumber(readSearchValue(searchParams, ['lng', 'lon']), -180, 180);
-
-  if (diameter === null && density === null && velocity === null && angle === null && lat === null && lng === null) {
-    return null;
-  }
-
-  return {
-    ...currentParams,
-    diameter: diameter === null ? currentParams.diameter : meters(diameter),
-    density: density === null ? currentParams.density : kilogramsPerCubicMeter(density),
-    velocity: velocity === null ? currentParams.velocity : metersPerSecond(velocity),
-    angle: angle === null ? currentParams.angle : degrees(angle),
-    location: {
-      ...currentParams.location,
-      lat: lat === null ? currentParams.location.lat : latitude(lat),
-      lng: lng === null ? currentParams.location.lng : longitude(lng),
-    },
-  };
-}
-
 export const createParamsSlice: StoreSlice<SimStateSlice> = (set, get) => ({
   params: DEFAULT_IMPACT_PARAMS,
   result: computeDomainImpactResult(DEFAULT_IMPACT_PARAMS),
@@ -330,7 +244,7 @@ export const createParamsSlice: StoreSlice<SimStateSlice> = (set, get) => ({
     scheduleImpactResult(set, get);
   },
   hydrateFromUrlSearch: (search) => {
-    const params = createParamsFromSearch(search, get().params);
+    const params = decodeHydratedParams(search, get().params);
     if (params === null) {
       return;
     }

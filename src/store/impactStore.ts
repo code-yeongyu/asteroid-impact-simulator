@@ -4,6 +4,8 @@ import { createJSONStorage, devtools, persist, subscribeWithSelector } from 'zus
 import type { StateCreator } from 'zustand';
 import type { StateStorage } from 'zustand/middleware';
 import type { AppStoreBase, ComputedSimSlice, PersistedImpactState } from '../lib/store/types';
+import { replaceUrlFromParams } from '../lib/url';
+import type { AsteroidParams } from '../types';
 import { computeDomainImpactResult, computeKineticEnergy, computeMass, DEFAULT_IMPACT_PARAMS } from './paramsSlice';
 import { cancelPendingImpactResult } from './paramsSlice';
 import { createParamsSlice } from './paramsSlice';
@@ -104,6 +106,27 @@ export const useImpactStore = create<AppStoreBase>()(
 export function hydrateImpactStoreFromLocation(search?: string): void {
   const source = search ?? (typeof window === 'undefined' ? '' : window.location.search);
   useImpactStore.getState().hydrateFromUrlSearch(source);
+  useImpactStore.getState().computeResultNow();
+}
+
+export function startImpactStoreUrlSync(): () => void {
+  if (typeof window === 'undefined') {
+    return () => {};
+  }
+
+  const syncParamsToUrl = (params: AsteroidParams): void => {
+    const shareUrlHash = replaceUrlFromParams(params);
+    if (shareUrlHash !== null) {
+      useImpactStore.getState().setShareUrlHash(shareUrlHash);
+    }
+  };
+
+  syncParamsToUrl(useImpactStore.getState().params);
+  return useImpactStore.subscribe((state, previousState) => {
+    if (state.params !== previousState.params) {
+      syncParamsToUrl(state.params);
+    }
+  });
 }
 
 export function resetImpactStoreForTests(): void {
