@@ -19,10 +19,10 @@
  *   node scripts/generate-assets.mjs # stage 1 only
  *
  * Env vars consumed:
- *   GEMINI_API_KEY / GOOGLE_API_KEY → enables nano-banana-pro live generation
- *   OPENAI_API_KEY                  → enables gpt-image-2 live generation
- *   IMAGEGEN_TIMEOUT_MS             → per-asset wait budget (default 120000)
- *   IMAGEGEN_FORCE_PLACEHOLDERS=1   → skip imagegen entirely (CI cheap path)
+ *   GEMINI_API_KEY / GOOGLE_API_KEY -> enables nano-banana-pro live generation
+ *   OPENAI_API_KEY                  -> enables gpt-image-2 live generation
+ *   IMAGEGEN_TIMEOUT_MS             -> per-asset wait budget (default 120000)
+ *   IMAGEGEN_FORCE_PLACEHOLDERS=1   -> skip imagegen entirely (CI cheap path)
  *
  * Idempotency: scripts/.imagegen-cache/.manifest.json records the SHA-256 of
  * (prompt + model + size + version) per slug. If unchanged AND output exists,
@@ -55,16 +55,18 @@ const warn = (...args) => console.warn('[generate-assets]', ...args);
 
 function hashSpec(asset) {
   const h = createHash('sha256');
-  h.update(JSON.stringify({
-    slug: asset.slug,
-    model: asset.model,
-    size: asset.size,
-    prompt: asset.prompt,
-    negative: asset.negative_prompt ?? '',
-    alpha: asset.alphaChannel,
-    chroma: asset.chromaKey,
-    pipelineVersion: 1,
-  }));
+  h.update(
+    JSON.stringify({
+      slug: asset.slug,
+      model: asset.model,
+      size: asset.size,
+      prompt: asset.prompt,
+      negative: asset.negative_prompt ?? '',
+      alpha: asset.alphaChannel,
+      chroma: asset.chromaKey,
+      pipelineVersion: 1,
+    }),
+  );
   return h.digest('hex').slice(0, 16);
 }
 
@@ -98,12 +100,7 @@ function hasImagegenCredentials(model) {
  */
 function runImagegen(asset, outputPath) {
   return new Promise((resolveJob) => {
-    const args = [
-      '--',
-      '--model', asset.model,
-      '--prompt', asset.prompt,
-      '--filename', outputPath,
-    ];
+    const args = ['--', '--model', asset.model, '--prompt', asset.prompt, '--filename', outputPath];
     if (asset.size && !asset.model.startsWith('nano-banana')) {
       args.push('--size', asset.size);
     }
@@ -140,19 +137,21 @@ function runImagegen(asset, outputPath) {
       const interval = setInterval(async () => {
         if (existsSync(sentinel)) {
           clearInterval(interval);
-          log(`✓ ${asset.slug}: imagegen done`);
+          log(`[ok] ${asset.slug}: imagegen done`);
           resolveJob(true);
         } else if (existsSync(errorSentinel)) {
           clearInterval(interval);
           let logTail = '';
           try {
             logTail = (await readFile(logPath, 'utf8')).split('\n').slice(-10).join('\n');
-          } catch { /* ignore */ }
-          warn(`✗ ${asset.slug}: imagegen failed\n${logTail}`);
+          } catch {
+            /* ignore */
+          }
+          warn(`[fail] ${asset.slug}: imagegen failed\n${logTail}`);
           resolveJob(false);
         } else if (Date.now() - start > TIMEOUT_MS) {
           clearInterval(interval);
-          warn(`⏱ ${asset.slug}: imagegen timeout after ${TIMEOUT_MS}ms`);
+          warn(`[timeout] ${asset.slug}: imagegen timeout after ${TIMEOUT_MS}ms`);
           resolveJob(false);
         }
       }, 1000);
@@ -173,7 +172,7 @@ async function renderPlaceholderForAsset(asset, outputPath) {
     .png({ compressionLevel: 9 })
     .withMetadata({ exif: { IFD0: { Software: 'dionysus-placeholder@v1 TODO_REGENERATE' } } })
     .toFile(outputPath);
-  log(`✓ ${asset.slug}: placeholder written (${w}x${h})`);
+  log(`[ok] ${asset.slug}: placeholder written (${w}x${h})`);
 }
 
 async function generateOne(asset, cacheManifest) {
@@ -182,14 +181,10 @@ async function generateOne(asset, cacheManifest) {
   const sourceTagPath = join(CACHE_DIR, `${slug}.source`);
   const specHash = hashSpec(asset);
   const cached = cacheManifest[slug];
-  const upToDate =
-    cached &&
-    cached.specHash === specHash &&
-    existsSync(outputPath) &&
-    !FORCE_REGEN;
+  const upToDate = cached && cached.specHash === specHash && existsSync(outputPath) && !FORCE_REGEN;
 
   if (upToDate) {
-    log(`↻ ${slug}: cache hit (specHash=${specHash}, source=${cached.source}) — skipping`);
+    log(`[cache] ${slug}: cache hit (specHash=${specHash}, source=${cached.source}) - skipping`);
     return { slug, source: cached.source, path: outputPath };
   }
 
@@ -224,10 +219,8 @@ async function main() {
   const results = [];
   // Run jobs concurrently for imagegen (the bg_run.sh is already async and
   // polling per asset is independent). For placeholders, sharp's async raw
-  // pipeline is also independent — batch them all.
-  const settled = await Promise.all(
-    manifest.assets.map((a) => generateOne(a, cacheManifest)),
-  );
+  // pipeline is also independent - batch them all.
+  const settled = await Promise.all(manifest.assets.map((a) => generateOne(a, cacheManifest)));
   results.push(...settled);
   await writeCacheManifest(cacheManifest);
 
