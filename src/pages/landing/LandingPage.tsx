@@ -42,6 +42,10 @@ export default function LandingPage() {
           <img 
             src="/assets/earth-from-space@1x.webp" 
             alt="Earth from space" 
+            width={1200}
+            height={720}
+            loading="eager"
+            fetchPriority="high"
             className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] max-w-none object-cover opacity-80"
             style={{ maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)' }}
           />
