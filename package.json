@@ -16,7 +16,7 @@
     "test:e2e": "playwright test",
     "test:lhci": "lhci autorun",
     "test:a11y": "playwright test --project=a11y",
-    "test:budget": "size-limit",
+    "test:budget": "node scripts/check-budget.mjs",
     "test:i18n-coverage": "bun run scripts/check-i18n-coverage.ts",
     "gen:sitemap": "bun run scripts/gen-sitemap.ts",
     "generate:assets": "bun run scripts/generate-assets.ts && bun run scripts/process-assets.ts",
