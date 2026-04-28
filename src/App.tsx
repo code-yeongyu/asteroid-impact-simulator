@@ -1,7 +1,9 @@
 import { Asterisk, Planet, Target } from '@phosphor-icons/react';
 import { Button, Icon, Separator } from './components/ui';
-
+import { useRegisterSW } from './registerSW';
 export default function App() {
+  useRegisterSW();
+
   return (
     <div className="min-h-[100dvh] bg-bg-void text-ink-primary">
       <main className="mx-auto max-w-3xl px-6 py-24 flex flex-col gap-12">
