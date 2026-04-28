@@ -50,7 +50,7 @@
     "@visx/grid": "^3.5.0",
     "@visx/responsive": "^3.5.0",
     "@react-three/fiber": "^9.6.0",
-    "@react-three/drei": "^9.120.0",
+    "@react-three/drei": "^10.7.7",
     "three": "^0.170.0",
     "simplex-noise": "^4.0.0",
     "katex": "^0.16.0",
