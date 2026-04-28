@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Asterisk, Planet, Target, ArrowRight } from '@phosphor-icons/react';
 import { Button, Icon } from '../../components/ui';
+import { Link } from 'react-router';
 import Asteroid3D from '../../components/asteroid/Asteroid3D';
 
 export default function LandingPage() {
@@ -90,12 +91,14 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mt-8">
-              <Button variant="primary" size="lg" className="group relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-danger-fire/0 via-white/20 to-danger-fire/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
-                <Icon icon={Target} size="sm" weight="bold" />
-                Launch Simulator
-                <Icon icon={ArrowRight} size="sm" weight="bold" className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <Link to="/simulator">
+                <Button variant="primary" size="lg" className="group relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-r from-danger-fire/0 via-white/20 to-danger-fire/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+                  <Icon icon={Target} size="sm" weight="bold" />
+                  Launch Simulator
+                  <Icon icon={ArrowRight} size="sm" weight="bold" className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
               <Button variant="ghost" size="lg" className="backdrop-blur-sm bg-bg-elevated/30 border border-ink-faint/30 hover:bg-bg-elevated/50">
                 <Icon icon={Planet} size="sm" />
                 Read Methodology
