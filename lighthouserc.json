@@ -2,10 +2,10 @@
   "ci": {
     "collect": {
       "url": [
-        "http://localhost:4173/en",
-        "http://localhost:4173/ar",
-        "http://localhost:4173/ja",
-        "http://localhost:4173/de"
+        "http://localhost:4173/en/",
+        "http://localhost:4173/ar/",
+        "http://localhost:4173/ja/",
+        "http://localhost:4173/de/"
       ],
       "numberOfRuns": 3,
       "startServerCommand": "bun run preview --port 4173 --strictPort",
