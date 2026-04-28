@@ -44,9 +44,9 @@ void i18next
       escapeValue: false,
     },
     detection: {
-      order: ['path', 'cookie', 'navigator', 'htmlTag'],
+      order: ['path', 'localStorage', 'navigator', 'htmlTag'],
       lookupFromPathIndex: 0,
-      caches: ['cookie'],
+      caches: ['localStorage'],
     },
     backend: {
       backends: [bundledBackend, HttpBackend],
