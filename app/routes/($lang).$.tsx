@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 import { Button } from '../../src/components/ui/Button';
+import type { ButtonVariant } from '../../src/components/ui/Button';
 
 export default function NotFoundPage() {
   const { t } = useTranslation();
@@ -32,10 +33,3 @@ export default function NotFoundPage() {
         <Button variant="primary">
           <Link to="/">{t('404.home', 'Return to Base')}</Link>
         </Button>
-        <Button variant="ghost">
-          <Link to="/simulator">{t('404.simulator', 'Launch Simulator')}</Link>
-        </Button>
-      </div>
-    </div>
-  );
-}
