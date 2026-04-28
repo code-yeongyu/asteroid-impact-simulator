@@ -1,5 +1,7 @@
 import { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+
+
 import { useTranslation } from 'react-i18next';
 import type { ImpactResult } from '../../lib/physics/types';
 
@@ -21,7 +23,7 @@ export default function DamageBreakdown({ result }: DamageBreakdownProps) {
   const data: ChartData[] = useMemo(() => {
     const items: ChartData[] = [];
 
-    if (result.crater_diameter_km) {
+    if (result.crater_diameter_km !== null && result.crater_diameter_km > 0) {
       items.push({
         id: 'crater',
         nameKey: 'charts.damage.crater.name',
@@ -95,9 +97,9 @@ export default function DamageBreakdown({ result }: DamageBreakdownProps) {
     return new Intl.NumberFormat(i18n.language, { maximumFractionDigits: 1 }).format(val) + ' km';
   };
 
-  const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: any[] }) => {
-    if (active && payload && payload.length) {
-      const data = payload[0].payload as ChartData;
+  const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: { payload: ChartData }[] }) => {
+    if (active === true && payload !== undefined && payload !== null && payload.length > 0) {
+      const data = payload[0]?.payload;
       return (
         <div className="bg-[var(--bg-elevated)] border border-[var(--ink-faint)] p-3 rounded-[var(--radius-sm)] shadow-[var(--shadow-deep)] max-w-[250px]">
           <p className="font-display text-[var(--fs-sm)] text-[var(--ink-primary)] mb-1">{t(data.nameKey)}</p>
@@ -129,7 +131,7 @@ export default function DamageBreakdown({ result }: DamageBreakdownProps) {
             dataKey="nameKey" 
             type="category" 
             stroke="var(--ink-muted)"
-            tickFormatter={(val) => t(val)}
+            tickFormatter={(val) => t(val as string)}
             tick={{ fill: 'var(--ink-muted)', fontSize: 12 }}
             axisLine={{ stroke: 'var(--ink-faint)' }}
             tickLine={false}
