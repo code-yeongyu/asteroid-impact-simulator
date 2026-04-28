@@ -1,6 +1,8 @@
 import { Outlet, Scripts, ScrollRestoration, useLocation } from 'react-router';
 import { useMemo } from 'react';
 import { LOCALES, RTL_LOCALES } from '../react-router.config';
+import '../src/styles/base.css';
+import '../src/styles/rtl.css';
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
