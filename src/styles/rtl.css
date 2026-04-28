@@ -1,0 +1,20 @@
+/* RTL overrides for icon mirroring */
+[dir='rtl'] .rtl-mirror {
+  transform: scaleX(-1);
+}
+
+/* Ensure numbers in RTL text remain LTR */
+[dir='rtl'] bdi,
+[dir='rtl'] .bidi-ltr {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* Logical side enforcement for Base UI popups in RTL */
+[dir='rtl'] [data-side='inline-start'] {
+  inset-inline-start: 0;
+}
+
+[dir='rtl'] [data-side='inline-end'] {
+  inset-inline-end: 0;
+}
