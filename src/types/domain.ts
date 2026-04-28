@@ -1,4 +1,4 @@
-import type { AtmosphericOutcome, CivilizationRisk as PhysicsCivilizationRisk, ImpactorClass } from '../lib/physics';
+import type { AtmosphericOutcome, CivilizationRisk as PhysicsCivilizationRisk, ImpactorClass, OverpressureRadii, SeismicResult, ThermalRadiationRadii } from '../lib/physics';
 import type {
   Degrees,
   Joules,
@@ -81,6 +81,14 @@ export interface DomainImpactResult {
   timeline: readonly TimelineSnapshot[];
   civilizationRisk: CivilizationRisk;
   torinoEquivalent: TorinoLevel;
+  kinetic_energy_J: number;
+  energyMegatons: number;
+  crater_diameter_km: number | null;
+  crater_depth_km: number | null;
+  fireball_radius_km: number;
+  overpressure: OverpressureRadii;
+  thermal_radiation: ThermalRadiationRadii;
+  seismic: SeismicResult;
 }
 
 export interface ImpactResultRow {
