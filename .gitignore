@@ -1,0 +1,61 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+bun.lockb
+
+# Build outputs
+dist
+dist-ssr
+build
+.vite
+.cache
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+.cursor
+.zed
+
+# OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# Test artifacts
+coverage
+test-results
+playwright-report
+playwright/.cache
+.lighthouseci
+
+# Sisyphus working state
+.sisyphus/evidence
+.sisyphus/notepads
+.sisyphus/boulder.json
+.sisyphus/ralph-loop.local.md
+
+# Cloudflare
+.wrangler
+.dev.vars
+
+# Misc
+*.tsbuildinfo
+.turbo
