@@ -16,7 +16,12 @@ interface EnergyVsVelocityProps {
 
 const MARGIN = { top: 20, right: 20, bottom: 40, left: 60 };
 
-export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy }: EnergyVsVelocityProps) {
+export function EnergyVsVelocity({
+  width,
+  height,
+  currentVelocity,
+  currentEnergy,
+}: EnergyVsVelocityProps) {
   const { t, i18n } = useTranslation();
 
   const innerWidth = width - MARGIN.left - MARGIN.right;
@@ -28,7 +33,7 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
         range: [0, innerWidth],
         domain: [11, 80],
       }),
-    [innerWidth]
+    [innerWidth],
   );
 
   const yScale = useMemo(
@@ -37,7 +42,7 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
         range: [innerHeight, 0],
         domain: [1e9, 1e25],
       }),
-    [innerHeight]
+    [innerHeight],
   );
 
   const curveData = useMemo(() => {
@@ -61,12 +66,30 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
 
   return (
     <div className="relative">
-      <svg width={width} height={height} role="img" aria-label={t('charts.energyVsVelocity.ariaLabel', { velocity: currentVelocity, energy: formatScientific(currentEnergy, i18n.language) })}>
+      <svg
+        width={width}
+        height={height}
+        role="img"
+        aria-label={t('charts.energyVsVelocity.ariaLabel', {
+          velocity: currentVelocity,
+          energy: formatScientific(currentEnergy, i18n.language),
+        })}
+      >
         <title>{t('charts.energyVsVelocity.title')}</title>
         <desc>{t('charts.energyVsVelocity.desc')}</desc>
         <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
-          <GridRows scale={yScale} width={innerWidth} stroke="var(--ink-faint)" strokeDasharray="2,2" />
-          <GridColumns scale={xScale} height={innerHeight} stroke="var(--ink-faint)" strokeDasharray="2,2" />
+          <GridRows
+            scale={yScale}
+            width={innerWidth}
+            stroke="var(--ink-faint)"
+            strokeDasharray="2,2"
+          />
+          <GridColumns
+            scale={xScale}
+            height={innerHeight}
+            stroke="var(--ink-faint)"
+            strokeDasharray="2,2"
+          />
 
           <AxisLeft
             scale={yScale}
@@ -115,7 +138,6 @@ export function EnergyVsVelocity({ width, height, currentVelocity, currentEnergy
             cy={yScale(currentEnergy)}
             r={4}
             fill="var(--accent-cyan)"
-            className="drop-shadow-[0_0_8px_var(--accent-cyan)]"
             data-testid="current-scenario-marker-v"
           />
         </g>
