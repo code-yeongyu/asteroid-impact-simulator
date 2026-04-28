@@ -11,13 +11,13 @@ const ICU = ICUmod.default;
 
 const enModules = import.meta.glob('/public/locales/en/*.json', {
   eager: true,
-}) as Record<string, { default: Record<string, unknown> }>;
+});
 
 const enResources: Record<string, Record<string, unknown>> = {};
 for (const [path, mod] of Object.entries(enModules)) {
   const match = path.match(/\/public\/locales\/en\/(.+)\.json$/);
-  if (match && match[1]) {
-    enResources[match[1]] = mod.default;
+  if (match != null && match[1] != null && match[1] !== '') {
+    enResources[match[1]] = (mod as { default: Record<string, unknown> }).default;
   }
 }
 
@@ -28,7 +28,7 @@ const bundledBackend = resourcesToBackend((lng: string, ns: string) => {
   throw new Error(`Bundled resource not found: ${lng}/${ns}`);
 });
 
-i18next
+void i18next
   .use(ICU)
   .use(LanguageDetector)
   .use(ChainedBackend)
@@ -36,7 +36,7 @@ i18next
   .init({
     lng: 'en',
     fallbackLng: FALLBACK_LOCALE,
-    supportedLngs: LOCALES as unknown as string[],
+    supportedLngs: [...LOCALES],
     partialBundledLanguages: true,
     ns: ['common', 'simulator', 'methodology', 'landing', 'pwa'],
     defaultNS: 'common',

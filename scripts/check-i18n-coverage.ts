@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 import { readdirSync, readFileSync, existsSync, statSync } from 'fs';
-import { join, relative } from 'path';
+import { join } from 'path';
 
 const LOCALES_DIR = join(process.cwd(), 'public', 'locales');
 const SRC_DIR = join(process.cwd(), 'src');
@@ -38,8 +38,9 @@ function extractNamespaceKeys(srcDir: string): Map<string, Set<string>> {
     let match: RegExpExecArray | null;
     while ((match = tCallRegex.exec(content)) !== null) {
       const key = match[1];
-      if (!key.includes(':')) continue;
+      if (key == null || !key.includes(':')) continue;
       const [ns, ...rest] = key.split(':');
+      if (ns == null) continue;
       const path = rest.join(':');
       if (!namespaceKeys.has(ns)) {
         namespaceKeys.set(ns, new Set());
