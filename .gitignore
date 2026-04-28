@@ -16,6 +16,7 @@ node_modules
 dist
 build
 dist-ssr
+.wrangler
 *.local
 
 # React Router generated types
