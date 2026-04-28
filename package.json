@@ -18,6 +18,9 @@
     "test:a11y": "playwright test --project=a11y",
     "test:budget": "size-limit",
     "test:i18n-coverage": "bun run scripts/check-i18n-coverage.ts",
+    "generate:assets": "bun run scripts/generate-assets.ts && bun run scripts/process-assets.ts",
+    "generate:assets:stage1": "bun run scripts/generate-assets.ts",
+    "generate:assets:stage2": "bun run scripts/process-assets.ts",
     "test:all": "bun run typecheck && bun run lint && bun run test:unit && bun run test:e2e && bun run test:lhci && bun run test:a11y && bun run test:budget && bun run test:i18n-coverage"
   },
   "dependencies": {

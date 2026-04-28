@@ -1,0 +1,15 @@
+{
+  "slug": "cosmic-void-bg",
+  "source": "placeholder",
+  "specHash": "99edbebdf0a2b582",
+  "generatedAt": "2026-04-28T06:56:49.236Z",
+  "model": "nano-banana-pro",
+  "outputs": [
+    {
+      "scale": 1,
+      "width": 2048,
+      "height": 1152
+    }
+  ],
+  "pipelineVersion": 1
+}

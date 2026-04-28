@@ -1,0 +1,86 @@
+{
+  "$schema": "./asset-prompts.schema.json",
+  "version": 1,
+  "comment": "Reproducible imagegen manifest for cosmic asteroid-impact-simulator hero/landing assets. The pipeline (scripts/generate-assets.mjs) reads this file, fires `~/.agents/skills/imagegen/scripts/bg_run.sh` per asset, watches sentinels, and falls back to procedural placeholders when API keys are unavailable. Process pipeline (scripts/process-assets.mjs) handles Lanczos3 resize, optional chroma-key removal, AVIF/WebP/PNG export.",
+  "anti_slop_guards": [
+    "no purple-blue saas-gradient backgrounds (G28)",
+    "no emoji-style assets (G27)",
+    "no rounded-2xl rendered into bitmaps (G28)",
+    "asteroids must look like real photographic geological renders, not cartoon rocks",
+    "earth must show real continent silhouettes + atmosphere rim, not childlike marble"
+  ],
+  "assets": [
+    {
+      "slug": "cosmic-void-bg",
+      "purpose": "Landing hero / simulator backdrop. Composited under R3F Stars overlay + headline text.",
+      "model": "nano-banana-pro",
+      "size": "2048x1152",
+      "aspect": "16:9",
+      "alphaChannel": false,
+      "chromaKey": null,
+      "outputs": [{ "scale": 1, "width": 2048, "height": 1152 }],
+      "prompt": "Deep cosmic void backdrop, instrument-grade negative space. Far-distant nebula in cool muted teal and rust-amber, NOT purple-blue saas gradient. Scattered pinpoint stars at varying brightness, photographic accuracy, sub-pixel anti-aliasing. Wide shot, 16:9, no foreground objects, no text, no UI chrome, no watermark, no flares. Reference: Hubble Ultra Deep Field crossed with a quiet observatory monitor. Color grade: NASA archival imagery, scientific accuracy.",
+      "negative_prompt": "purple, magenta gradient, neon pink, glow halos, generic saas backdrop, cartoon stars, text, watermark, lens flare, vignette overdrive"
+    },
+    {
+      "slug": "asteroid-iron",
+      "purpose": "3D-fallback / preset thumbnail for Iron-class impactors (e.g. Barringer, ρ ≈ 7800 kg/m³).",
+      "model": "nano-banana-pro",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "alphaChannel": true,
+      "chromaKey": { "rgb": [0, 255, 0], "tolerance": 28 },
+      "outputs": [
+        { "scale": 1, "width": 512, "height": 512 },
+        { "scale": 2, "width": 1024, "height": 1024 }
+      ],
+      "prompt": "Solitary iron-nickel meteorite, kamacite + taenite striations, dark steel-grey with rust-brown patina, regmaglypt thumbprint surface texture from atmospheric ablation. Floating in absolute void on a chroma-key #00FF00 green background for clean alpha extraction. Cool blue rim light from upper-right (cosmic shadow side), no halo, no bloom. Photographic, scientific catalog style, sharp focus, depth of field showing fine surface texture. Centered in frame. NO text, NO watermark, NO atmospheric glow, NO comet tail.",
+      "negative_prompt": "purple glow, neon trail, cartoon impact lines, text overlay, smooth plastic surface, brown gravel pile"
+    },
+    {
+      "slug": "asteroid-rocky",
+      "purpose": "3D-fallback / preset thumbnail for Rocky/chondrite impactors (e.g. Tunguska, ρ ≈ 3000 kg/m³).",
+      "model": "nano-banana-pro",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "alphaChannel": true,
+      "chromaKey": { "rgb": [0, 255, 0], "tolerance": 28 },
+      "outputs": [
+        { "scale": 1, "width": 512, "height": 512 },
+        { "scale": 2, "width": 1024, "height": 1024 }
+      ],
+      "prompt": "Single rocky chondrite asteroid, weathered grey-brown silicate surface with embedded chondrules visible as faint speckles, irregular potato-shape with minor crater pitting. Floating against chroma-key #00FF00 green background. Cool blue rim light from upper-right; subtle warm fill suggesting distant solar reflection. Photographic, scientific instrument quality, mid-focal-length lens. Centered. NO text, NO bloom, NO glow halo.",
+      "negative_prompt": "smooth metal surface, ice, comet tail, neon outline, cartoon, text"
+    },
+    {
+      "slug": "asteroid-cometary",
+      "purpose": "3D-fallback / preset thumbnail for Icy/cometary impactors (low-density, ρ ≈ 1000 kg/m³).",
+      "model": "nano-banana-pro",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "alphaChannel": true,
+      "chromaKey": { "rgb": [0, 255, 0], "tolerance": 28 },
+      "outputs": [
+        { "scale": 1, "width": 512, "height": 512 },
+        { "scale": 2, "width": 1024, "height": 1024 }
+      ],
+      "prompt": "Icy cometary nucleus, dirty-snow surface with refrozen sublimation pits, pale blue-white with charcoal carbonaceous streaks, faint sublimation jets emerging from sun-side cracks. Floating against chroma-key #00FF00 green background. Cool blue rim light from upper-right. Photographic, ESA Rosetta-mission catalog reference. Centered. NO comet tail extending off-frame (we want the nucleus only), NO text, NO purple glow.",
+      "negative_prompt": "long comet tail, neon glow, lens flare, generic snowball, cartoon star pattern"
+    },
+    {
+      "slug": "earth-from-space",
+      "purpose": "Hero composition / methodology page anchor. Shows target planet + atmosphere rim.",
+      "model": "nano-banana-pro",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "alphaChannel": true,
+      "chromaKey": { "rgb": [0, 255, 0], "tolerance": 28 },
+      "outputs": [
+        { "scale": 1, "width": 1024, "height": 1024 },
+        { "scale": 2, "width": 2048, "height": 2048 }
+      ],
+      "prompt": "Planet Earth viewed from low orbit, ~400 km altitude perspective. Recognizable continental silhouettes (e.g. coastline of Africa or western Pacific) under realistic cloud cover. Atmosphere rim glow: thin Rayleigh-scattered blue band on the day-side, softly fading to terminator. Day/night terminator visible with city-light constellations on dark side. Floating against chroma-key #00FF00 green background to extract atmosphere halo cleanly. NASA Earth Observatory reference, EPIC DSCOVR style. NO text, NO orbital lines, NO satellite, NO purple gradient sky.",
+      "negative_prompt": "cartoon globe, child's drawing, neon continents, purple atmosphere, text overlay, satellite hardware in frame"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "asteroid-iron",
+  "source": "placeholder",
+  "specHash": "4b1290c7a1d10b59",
+  "generatedAt": "2026-04-28T06:56:48.585Z",
+  "model": "nano-banana-pro",
+  "outputs": [
+    {
+      "scale": 1,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "scale": 2,
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "pipelineVersion": 1
+}

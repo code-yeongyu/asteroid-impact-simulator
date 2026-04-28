@@ -22,7 +22,7 @@ for (const [path, mod] of Object.entries(enModules)) {
 }
 
 const bundledBackend = resourcesToBackend((lng: string, ns: string) => {
-  if (lng === 'en' && enResources[ns]) {
+  if (lng === 'en' && enResources[ns] !== undefined) {
     return enResources[ns];
   }
   throw new Error(`Bundled resource not found: ${lng}/${ns}`);

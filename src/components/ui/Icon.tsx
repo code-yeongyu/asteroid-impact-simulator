@@ -24,7 +24,7 @@ export function Icon({ icon: Component, size = 'md', weight = 'regular', ...rest
       size={px}
       weight={weight}
       aria-hidden={rest['aria-label'] !== undefined && rest['aria-label'] !== '' ? undefined : true}
-      {...(rest as PhosphorProps)}
+      {...(rest)}
     />
   );
 }
