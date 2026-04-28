@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asteroid-impact-simulator.pages.dev/sitemap.xml
