@@ -88,10 +88,10 @@ export default function MethodologyPage(): React.ReactElement {
         <div className="mx-auto max-w-6xl px-6 py-12 lg:py-24">
           <header className="mb-12 lg:mb-16">
             <h1 className="font-display text-[var(--fs-4xl)] text-[var(--ink-primary)] leading-[var(--lh-display)] mb-4">
-              {t('title')}
+              {t('title', { defaultValue: 'Methodology' })}
             </h1>
             <p className="text-[var(--ink-muted)] text-[var(--fs-lg)] max-w-2xl">
-              {t('subtitle')}
+              {t('subtitle', { defaultValue: 'How the simulator works' })}
             </p>
             <p className="text-[var(--ink-faint)] text-sm mt-4">
               {t('readingTime', { defaultValue: 'Reading time: 8 min' })}
@@ -104,13 +104,13 @@ export default function MethodologyPage(): React.ReactElement {
             </div>
 
             <main className="flex-1 min-w-0 space-y-16 lg:space-y-24">
-              <Section id="overview" number={1} title={t('sections.overview')}>
+              <Section id="overview" number={1} title={t('sections.overview', { defaultValue: 'Overview' })}>
                 <p>{t('overview.p1')}</p>
                 <p>{t('overview.p2')}</p>
                 <p>{t('overview.accuracy', { defaultValue: 'Results are accurate to within ±5% for typical asteroid parameters, validated against the Collins et al. (2005) golden test suite.' })}</p>
               </Section>
 
-              <Section id="kinetic-energy" number={2} title={t('sections.kineticEnergy')}>
+              <Section id="kinetic-energy" number={2} title={t('sections.kineticEnergy', { defaultValue: 'Kinetic Energy' })}>
                 <p>{t('kineticEnergy.p1')}</p>
                 <FormulaBlock
                   tex="E = \\frac{1}{2} m v^2"
@@ -123,7 +123,7 @@ export default function MethodologyPage(): React.ReactElement {
                 />
               </Section>
 
-              <Section id="atmospheric-entry" number={3} title={t('sections.atmosphericEntry')}>
+              <Section id="atmospheric-entry" number={3} title={t('sections.atmosphericEntry', { defaultValue: 'Atmospheric Entry' })}>
                 <p>{t('atmosphericEntry.p1')}</p>
                 <p>{t('atmosphericEntry.p2')}</p>
                 <FormulaBlock
@@ -132,7 +132,7 @@ export default function MethodologyPage(): React.ReactElement {
                 />
               </Section>
 
-              <Section id="crater-diameter" number={4} title={t('sections.craterDiameter')}>
+              <Section id="crater-diameter" number={4} title={t('sections.craterDiameter', { defaultValue: 'Crater Diameter' })}>
                 <p>{t('craterDiameter.p1')}</p>
                 <FormulaBlock
                   tex="D \\approx 1.8 \\cdot \\rho_t^{-0.11} \\cdot \\rho_i^{0.33} \\cdot g^{-0.22} \\cdot E^{0.28}"
@@ -141,7 +141,7 @@ export default function MethodologyPage(): React.ReactElement {
                 <p>{t('craterDiameter.p2')}</p>
               </Section>
 
-              <Section id="fireball-thermal" number={5} title={t('sections.fireballThermal')}>
+              <Section id="fireball-thermal" number={5} title={t('sections.fireballThermal', { defaultValue: 'Fireball & Thermal' })}>
                 <p>{t('fireballThermal.p1')}</p>
                 <FormulaBlock
                   tex="R_f = 0.002 \\cdot E^{1/3}"
@@ -154,7 +154,7 @@ export default function MethodologyPage(): React.ReactElement {
                 />
               </Section>
 
-              <Section id="air-blast" number={6} title={t('sections.airBlast')}>
+              <Section id="air-blast" number={6} title={t('sections.airBlast', { defaultValue: 'Air Blast' })}>
                 <p>{t('airBlast.p1')}</p>
                 <p>{t('airBlast.p2')}</p>
                 <ul className="list-disc pl-5 space-y-1 text-[var(--ink-muted)]">
@@ -165,7 +165,7 @@ export default function MethodologyPage(): React.ReactElement {
                 </ul>
               </Section>
 
-              <Section id="seismic" number={7} title={t('sections.seismic')}>
+              <Section id="seismic" number={7} title={t('sections.seismic', { defaultValue: 'Seismic Effects' })}>
                 <p>{t('seismic.p1')}</p>
                 <FormulaBlock
                   tex="M_w = 0.67 \\cdot \\log_{10}(E) - 5.87"
@@ -174,18 +174,18 @@ export default function MethodologyPage(): React.ReactElement {
                 <p>{t('seismic.p2')}</p>
               </Section>
 
-              <Section id="civilization-risk" number={8} title={t('sections.civilizationRisk')}>
+              <Section id="civilization-risk" number={8} title={t('sections.civilizationRisk', { defaultValue: 'Civilization Risk' })}>
                 <p>{t('civilizationRisk.p1')}</p>
                 <p>{t('civilizationRisk.p2')}</p>
                 <p>{t('civilizationRisk.torino', { defaultValue: 'The Torino Scale (0–10) is referenced for public communication of impact hazard.' })}</p>
               </Section>
 
-              <Section id="limitations" number={9} title={t('sections.limitations')}>
+              <Section id="limitations" number={9} title={t('sections.limitations', { defaultValue: 'Limitations' })}>
                 <p>{t('limitations.intro', { defaultValue: 'The simulator intentionally excludes the following effects to maintain scientific rigor and avoid false precision:' })}</p>
                 <LimitationsSection items={LIMITATIONS} />
               </Section>
 
-              <Section id="citations" number={10} title={t('sections.citations')}>
+              <Section id="citations" number={10} title={t('sections.citations', { defaultValue: 'Citations' })}>
                 <p>{t('citations.intro', { defaultValue: 'All formulas and scaling laws are derived from peer-reviewed publications:' })}</p>
                 <CitationsList citations={CITATIONS} />
               </Section>
