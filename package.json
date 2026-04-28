@@ -22,6 +22,7 @@
     "generate:assets": "bun run scripts/generate-assets.ts && bun run scripts/process-assets.ts",
     "generate:assets:stage1": "bun run scripts/generate-assets.ts",
     "generate:assets:stage2": "bun run scripts/process-assets.ts",
+    "subset:fonts": "bun run scripts/subset-fonts.ts",
     "test:all": "bun run typecheck && bun run lint && bun run test:unit && bun run test:e2e && bun run test:lhci && bun run test:a11y && bun run test:budget && bun run test:i18n-coverage"
   },
   "dependencies": {
@@ -66,6 +67,14 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
     "@cloudflare/vite-plugin": "^1.7.0",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/noto-sans-arabic": "^5.2.10",
+    "@fontsource/noto-sans-bengali": "^5.2.11",
+    "@fontsource/noto-sans-devanagari": "^5.2.8",
+    "@fontsource/noto-sans-hebrew": "^5.2.8",
+    "@fontsource/noto-sans-thai": "^5.2.8",
+    "@fontsource/space-grotesk": "^5.2.10",
     "@lhci/cli": "^0.14.0",
     "@playwright/test": "^1.50.0",
     "@react-router/dev": "^7.0.0",
