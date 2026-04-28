@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Дослідіть, наскільки небезпечним був би удар астероїда для Землі?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Почати Симулятор",
+    "secondary": "Методологія"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Локалізований науковий текст: модель падіння астероїда, формули, посилання та обмеження."
+    }
+  },
+  "stats": {
+    "scenariosRun": "{count, plural, =0 {Сценарии еще не запускались} one {# сценарий запущен} few {# сценария запущено} many {# сценариев запущено} other {# сценария запущено}}",
+    "languagesSupported": "28 мов"
+  }
+}

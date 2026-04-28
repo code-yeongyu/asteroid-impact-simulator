@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "小行星直徑",
+    "density": "小行星密度",
+    "velocity": "撞擊速度",
+    "angle": "撞擊角度",
+    "location": "撞擊位置"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "撞擊能量",
+    "tntEquivalent": "TNT 當量",
+    "hiroshimaEquivalent": "廣島原子彈當量",
+    "damageRadius": "破壞半徑",
+    "civilizationRisk": "文明風險",
+    "craterDiameter": "隕石坑直徑",
+    "airburstAltitude": "空爆高度"
+  },
+  "civilizationTiers": {
+    "none": "無威脅",
+    "local": "局部毀滅",
+    "regional": "區域災難",
+    "continental": "大陸級滅絕",
+    "global": "全球滅絕"
+  },
+  "damage": {
+    "count": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "zoneLabel": "破壞區 {number}",
+    "radiusLabel": "半徑：{radius} km"
+  },
+  "timeline": {
+    "second1": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "minute1": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "hour1": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "day1": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "year1": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "resetInputs": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "saveScenario": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "shareResults": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "viewMethodology": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  },
+  "charts": {
+    "energyCurveTitle": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "damageBreakdownTitle": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "xAxisDiameter": "在地化科學說明：小行星撞擊模型、公式、引用與限制。",
+    "yAxisEnergy": "在地化科學說明：小行星撞擊模型、公式、引用與限制。"
+  }
+}

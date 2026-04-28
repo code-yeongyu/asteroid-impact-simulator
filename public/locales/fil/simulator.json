@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulator diameter",
+    "density": "Simulator density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "zoneLabel": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "radiusLabel": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "timeline": {
+    "second1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "minute1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "hour1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "day1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "year1": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "resetInputs": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "saveScenario": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "shareResults": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "viewMethodology": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  },
+  "charts": {
+    "energyCurveTitle": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "damageBreakdownTitle": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "xAxisDiameter": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "yAxisEnergy": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+  }
+}

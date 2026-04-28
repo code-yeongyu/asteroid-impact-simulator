@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "पृथ्वी के लिए क्षुद्रग्रह प्रभाव कितना खतरनाक होगा, इसे जानें?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Start सिम्युलेटर",
+    "secondary": "कार्यप्रणाली"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "स्थानीयकृत वैज्ञानिक पाठ: क्षुद्रग्रह प्रभाव मॉडल, सूत्र, उद्धरण और सीमाएँ।"
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "स्थानीयकृत वैज्ञानिक पाठ: क्षुद्रग्रह प्रभाव मॉडल, सूत्र, उद्धरण और सीमाएँ।"
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "स्थानीयकृत वैज्ञानिक पाठ: क्षुद्रग्रह प्रभाव मॉडल, सूत्र, उद्धरण और सीमाएँ।"
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "स्थानीयकृत वैज्ञानिक पाठ: क्षुद्रग्रह प्रभाव मॉडल, सूत्र, उद्धरण और सीमाएँ।"
+    }
+  },
+  "stats": {
+    "scenariosRun": "स्थानीयकृत वैज्ञानिक पाठ: क्षुद्रग्रह प्रभाव मॉडल, सूत्र, उद्धरण और सीमाएँ।",
+    "languagesSupported": "28 locales"
+  }
+}

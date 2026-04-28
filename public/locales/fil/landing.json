@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Tuklasin kung gaano kapanganib ang epekto ng asteroid sa Daigdig?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Start Simulator",
+    "secondary": "Metodolohiya"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon."
+    }
+  },
+  "stats": {
+    "scenariosRun": "Naisaling tekstong siyentipiko: modelo ng epekto ng asteroid, mga pormula, sanggunian, at limitasyon.",
+    "languagesSupported": "28 locales"
+  }
+}

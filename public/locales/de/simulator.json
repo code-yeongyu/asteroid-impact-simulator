@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Asteroidendurchmesser",
+    "density": "Asteroidendichte",
+    "velocity": "Einschlagsgeschwindigkeit",
+    "angle": "Einschlagswinkel",
+    "location": "Einschlagsort"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Einschlagsenergie",
+    "tntEquivalent": "TNT-Äquivalent",
+    "hiroshimaEquivalent": "Hiroshima-Bomben-Äquivalent",
+    "damageRadius": "Schadensradius",
+    "civilizationRisk": "Zivilisationsrisiko",
+    "craterDiameter": "Kraterdurchmesser",
+    "airburstAltitude": "Airburst-Höhe"
+  },
+  "civilizationTiers": {
+    "none": "Keine Bedrohung",
+    "local": "Lokale Verwüstung",
+    "regional": "Regionale Katastrophe",
+    "continental": "Kontinentales Aussterben",
+    "global": "Globales Aussterben"
+  },
+  "damage": {
+    "count": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "zoneLabel": "Schadenszone {number}",
+    "radiusLabel": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "timeline": {
+    "second1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "minute1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "hour1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "day1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "year1": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "resetInputs": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "saveScenario": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "shareResults": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "viewMethodology": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  },
+  "charts": {
+    "energyCurveTitle": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "damageBreakdownTitle": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "xAxisDiameter": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen.",
+    "yAxisEnergy": "Lokalisierter wissenschaftlicher Text: Asteroideneinschlagsmodell, Formeln, Quellen und Grenzen."
+  }
+}

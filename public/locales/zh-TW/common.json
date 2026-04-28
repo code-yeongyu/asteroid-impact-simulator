@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "首頁",
+    "simulator": "模擬器",
+    "methodology": "方法論",
+    "privacy": "隱私"
+  },
+  "footer": {
+    "copyright": "© {year} 小行星撞擊模擬器",
+    "license": "MIT 授權",
+    "github": "GitHub",
+    "issues": "回報問題"
+  },
+  "buttons": {
+    "submit": "送出",
+    "cancel": "取消",
+    "reset": "重設",
+    "save": "儲存",
+    "share": "分享",
+    "close": "關閉",
+    "learnMore": "了解更多",
+    "getStarted": "開始使用",
+    "download": "下載",
+    "copy": "複製",
+    "copied": "已複製"
+  },
+  "errors": {
+    "generic": "發生錯誤",
+    "network": "網路錯誤。請檢查連線。",
+    "notFound": "找不到頁面",
+    "offline": "你已離線",
+    "invalidInput": "輸入無效",
+    "requiredField": "此欄位為必填",
+    "minValue": "數值必須至少為 {min}",
+    "maxValue": "數值最多為 {max}",
+    "rangeError": "數值必須介於 {min} 和 {max} 之間",
+    "loadingFailed": "資料載入失敗"
+  },
+  "meta": {
+    "siteName": "小行星撞擊模擬器",
+    "siteDescription": "探索小行星撞擊對地球會有多危險"
+  },
+  "accessibility": {
+    "skipToContent": "跳到主要內容",
+    "menuOpen": "開啟選單",
+    "menuClose": "關閉選單",
+    "languageSelector": "選擇語言"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

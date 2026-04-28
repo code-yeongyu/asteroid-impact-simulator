@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "simulator": "Trình mô phỏng",
+    "methodology": "Phương pháp",
+    "privacy": "Quyền riêng tư"
+  },
+  "footer": {
+    "copyright": "© {year} Trình mô phỏng va chạm tiểu hành tinh",
+    "license": "MIT License",
+    "github": "GitHub",
+    "issues": "Báo cáo sự cố"
+  },
+  "buttons": {
+    "submit": "OK",
+    "cancel": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "reset": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "save": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "share": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "close": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "learnMore": "More",
+    "getStarted": "Start",
+    "download": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "copy": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "copied": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "errors": {
+    "generic": "Có lỗi xảy ra",
+    "network": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "notFound": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "offline": "Offline",
+    "invalidInput": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "requiredField": "Required field",
+    "minValue": "Value ≥ {min}",
+    "maxValue": "Value ≤ {max}",
+    "rangeError": "Value {min}–{max}",
+    "loadingFailed": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "meta": {
+    "siteName": "Trình mô phỏng va chạm tiểu hành tinh",
+    "siteDescription": "Khám phá mức độ nguy hiểm của một va chạm tiểu hành tinh đối với Trái Đất"
+  },
+  "accessibility": {
+    "skipToContent": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "menuOpen": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "menuClose": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "languageSelector": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

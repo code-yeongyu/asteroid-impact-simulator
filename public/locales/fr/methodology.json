@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Méthodologie",
+    "description": "Méthodologie for Simulateur d'impact d'astéroïde — formulas, citations, and limitations."
+  },
+  "title": "Méthodologie",
+  "subtitle": "Fonctionnement du simulateur",
+  "readingTime": "Temps de lecture : 8 min",
+  "sections": {
+    "overview": "Vue d’ensemble",
+    "kineticEnergy": "Énergie cinétique",
+    "atmosphericEntry": "Entrée atmosphérique",
+    "craterDiameter": "Diamètre du cratère",
+    "fireballThermal": "Boule de feu et effets thermiques",
+    "airBlast": "Souffle aérien",
+    "seismic": "Effets sismiques",
+    "civilizationRisk": "Risque civilisationnel",
+    "limitations": "Limites",
+    "citations": "Références"
+  },
+  "overview": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "accuracy": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "kineticEnergy": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "energyCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "massCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "atmosphericEntry": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "airburstCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "craterDiameter": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "craterCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "fireballThermal": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "fireballCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "fluxCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "airBlast": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "psi1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "psi3": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "psi5": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "psi20": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "seismic": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "magnitudeCaption": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "civilizationRisk": {
+    "p1": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "p2": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "torino": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "limitations": {
+    "intro": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "citations": {
+    "intro": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  }
+}

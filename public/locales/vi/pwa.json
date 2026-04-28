@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Trình mô phỏng va chạm tiểu hành tinh?",
+    "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "update": {
+    "available": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "description": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "button": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  },
+  "serviceWorker": {
+    "registered": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn.",
+    "failed": "Văn bản khoa học đã bản địa hóa: mô hình va chạm tiểu hành tinh, công thức, trích dẫn và giới hạn."
+  }
+}

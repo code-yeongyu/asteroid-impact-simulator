@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulatore diameter",
+    "density": "Simulatore density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "zoneLabel": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "radiusLabel": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "timeline": {
+    "second1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "minute1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "hour1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "day1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "year1": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "resetInputs": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "saveScenario": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "shareResults": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "viewMethodology": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  },
+  "charts": {
+    "energyCurveTitle": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "damageBreakdownTitle": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "xAxisDiameter": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti.",
+    "yAxisEnergy": "Testo scientifico localizzato: modello di impatto asteroidale, formule, citazioni e limiti."
+  }
+}

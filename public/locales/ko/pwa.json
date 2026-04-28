@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "소행성 충돌 시뮬레이터?",
+    "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "button": "다운로드",
+    "dismiss": "취소"
+  },
+  "offline": {
+    "notice": "오프라인 상태입니다. Some features may be limited.",
+    "cachedData": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  },
+  "update": {
+    "available": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "description": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "button": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  },
+  "serviceWorker": {
+    "registered": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계.",
+    "failed": "현지화된 과학 설명: 소행성 충돌 모델, 공식, 인용 및 한계."
+  }
+}

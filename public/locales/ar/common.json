@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "simulator": "المحاكي",
+    "methodology": "المنهجية",
+    "privacy": "الخصوصية"
+  },
+  "footer": {
+    "copyright": "© {year} محاكي اصطدام الكويكبات",
+    "license": "رخصة MIT",
+    "github": "GitHub",
+    "issues": "الإبلاغ عن مشكلة"
+  },
+  "buttons": {
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "reset": "إعادة ضبط",
+    "save": "حفظ",
+    "share": "مشاركة",
+    "close": "إغلاق",
+    "learnMore": "معرفة المزيد",
+    "getStarted": "البدء",
+    "download": "تنزيل",
+    "copy": "نسخ",
+    "copied": "تم النسخ"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "network": "خطأ في الشبكة. يرجى التحقق من الاتصال.",
+    "notFound": "الصفحة غير موجودة",
+    "offline": "أنت غير متصل",
+    "invalidInput": "إدخال غير صالح",
+    "requiredField": "هذا الحقل مطلوب",
+    "minValue": "يجب أن تكون القيمة على الأقل {min}",
+    "maxValue": "يجب ألا تتجاوز القيمة {max}",
+    "rangeError": "يجب أن تكون القيمة بين {min} و {max}",
+    "loadingFailed": "فشل تحميل البيانات"
+  },
+  "meta": {
+    "siteName": "محاكي اصطدام الكويكبات",
+    "siteDescription": "استكشف مدى خطورة اصطدام كويكب بالأرض"
+  },
+  "accessibility": {
+    "skipToContent": "تجاوز إلى المحتوى الرئيسي",
+    "menuOpen": "فتح القائمة",
+    "menuClose": "إغلاق القائمة",
+    "languageSelector": "اختيار اللغة"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

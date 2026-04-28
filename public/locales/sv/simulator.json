@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "diameter": "Simulator diameter",
+    "density": "Simulator density",
+    "velocity": "Impact velocity",
+    "angle": "Impact angle",
+    "location": "Impact location"
+  },
+  "sliders": {
+    "diameterLabel": "{value} m",
+    "densityLabel": "{value} kg/m³",
+    "velocityLabel": "{value} km/s",
+    "angleLabel": "{value}°"
+  },
+  "results": {
+    "energy": "Impact energy",
+    "tntEquivalent": "TNT equivalent",
+    "hiroshimaEquivalent": "Hiroshima equivalent",
+    "damageRadius": "Damage radius",
+    "civilizationRisk": "Civilization risk",
+    "craterDiameter": "Crater diameter",
+    "airburstAltitude": "Airburst altitude"
+  },
+  "civilizationTiers": {
+    "none": "No threat",
+    "local": "Local devastation",
+    "regional": "Regional catastrophe",
+    "continental": "Continental extinction",
+    "global": "Global extinction"
+  },
+  "damage": {
+    "count": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "zoneLabel": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "radiusLabel": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "timeline": {
+    "second1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "minute1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "hour1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "day1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "year1": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "scenarios": {
+    "tunguska": "Tunguska (1908)",
+    "chelyabinsk": "Chelyabinsk (2013)",
+    "barringer": "Barringer Crater",
+    "chicxulub": "Chicxulub (K-Pg)"
+  },
+  "actions": {
+    "runSimulation": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "resetInputs": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "saveScenario": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "shareResults": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "viewMethodology": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "charts": {
+    "energyCurveTitle": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "damageBreakdownTitle": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "xAxisDiameter": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "yAxisEnergy": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  }
+}

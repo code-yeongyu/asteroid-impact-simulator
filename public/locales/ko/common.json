@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "홈",
+    "simulator": "시뮬레이터",
+    "methodology": "방법론",
+    "privacy": "개인정보 보호"
+  },
+  "footer": {
+    "copyright": "© {year} 소행성 충돌 시뮬레이터",
+    "license": "MIT 라이선스",
+    "github": "GitHub",
+    "issues": "문제 신고"
+  },
+  "buttons": {
+    "submit": "제출",
+    "cancel": "취소",
+    "reset": "초기화",
+    "save": "저장",
+    "share": "공유",
+    "close": "닫기",
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "download": "다운로드",
+    "copy": "복사",
+    "copied": "복사됨"
+  },
+  "errors": {
+    "generic": "문제가 발생했습니다",
+    "network": "네트워크 오류입니다. 연결을 확인하세요.",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "offline": "오프라인 상태입니다",
+    "invalidInput": "유효하지 않은 입력",
+    "requiredField": "이 필드는 필수입니다",
+    "minValue": "값은 최소 {min}이어야 합니다",
+    "maxValue": "값은 최대 {max}이어야 합니다",
+    "rangeError": "값은 {min}에서 {max} 사이여야 합니다",
+    "loadingFailed": "데이터를 불러오지 못했습니다"
+  },
+  "meta": {
+    "siteName": "소행성 충돌 시뮬레이터",
+    "siteDescription": "소행성 충돌이 지구에 얼마나 위험한지 탐색합니다"
+  },
+  "accessibility": {
+    "skipToContent": "본문으로 건너뛰기",
+    "menuOpen": "메뉴 열기",
+    "menuClose": "메뉴 닫기",
+    "languageSelector": "언어 선택"
+  },
+  "units": {
+    "kg": "kg",
+    "m": "m",
+    "km": "km",
+    "km_s": "km/s",
+    "J": "J",
+    "Mt": "Mt",
+    "degrees": "°"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "headline": "Ontdek hoe gevaarlijk een asteroïde-inslag voor de aarde zou zijn?",
+    "subhead": "Explore asteroid-impact physics with peer-reviewed formulas and scientific visualizations."
+  },
+  "cta": {
+    "primary": "Aan de slag Simulator",
+    "secondary": "Methodologie"
+  },
+  "valueProps": {
+    "scientific": {
+      "title": "Scientifically grounded",
+      "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+    },
+    "visual": {
+      "title": "Scientific visualizations",
+      "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+    },
+    "global": {
+      "title": "28 languages",
+      "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+    },
+    "offline": {
+      "title": "Works offline",
+      "description": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen."
+    }
+  },
+  "stats": {
+    "scenariosRun": "Gelokaliseerde wetenschappelijke tekst: asteroïde-inslagmodel, formules, bronnen en beperkingen.",
+    "languagesSupported": "28 locales"
+  }
+}

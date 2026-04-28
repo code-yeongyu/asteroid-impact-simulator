@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Simulateur d'impact d'astéroïde?",
+    "description": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "button": "Télécharger",
+    "dismiss": "Annuler"
+  },
+  "offline": {
+    "notice": "Vous êtes hors ligne. Some features may be limited.",
+    "cachedData": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "update": {
+    "available": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "description": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "button": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  },
+  "serviceWorker": {
+    "registered": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites.",
+    "failed": "Texte scientifique localisé : modèle d’impact d’astéroïde, formules, références et limites."
+  }
+}

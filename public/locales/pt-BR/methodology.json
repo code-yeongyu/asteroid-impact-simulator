@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Metodologia",
+    "description": "Metodologia for Simulador de Impacto de Asteroides — formulas, citations, and limitations."
+  },
+  "title": "Metodologia",
+  "subtitle": "Como o simulador funciona",
+  "readingTime": "Tempo de leitura: 8 min",
+  "sections": {
+    "overview": "Visão geral",
+    "kineticEnergy": "Energia cinética",
+    "atmosphericEntry": "Entrada atmosférica",
+    "craterDiameter": "Diâmetro da cratera",
+    "fireballThermal": "Bola de fogo e efeitos térmicos",
+    "airBlast": "Onda de choque",
+    "seismic": "Efeitos sísmicos",
+    "civilizationRisk": "Risco civilizacional",
+    "limitations": "Limitações",
+    "citations": "Citações"
+  },
+  "overview": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "accuracy": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "kineticEnergy": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "energyCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "massCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "atmosphericEntry": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "airburstCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "craterDiameter": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "craterCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "fireballThermal": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "fireballCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "fluxCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "airBlast": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "psi1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "psi3": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "psi5": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "psi20": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "seismic": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "magnitudeCaption": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "civilizationRisk": {
+    "p1": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "p2": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações.",
+    "torino": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "limitations": {
+    "intro": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  },
+  "citations": {
+    "intro": "Texto científico localizado: modelo de impacto de asteroides, fórmulas, citações e limitações."
+  }
+}

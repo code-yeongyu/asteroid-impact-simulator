@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "Asteroidnedslagssimulator?",
+    "description": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "button": "Download",
+    "dismiss": "Cancel"
+  },
+  "offline": {
+    "notice": "Offline. Some features may be limited.",
+    "cachedData": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "update": {
+    "available": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "description": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "button": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  },
+  "serviceWorker": {
+    "registered": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar.",
+    "failed": "Lokaliserad vetenskaplig text: asteroidnedslagsmodell, formler, källor och begränsningar."
+  }
+}

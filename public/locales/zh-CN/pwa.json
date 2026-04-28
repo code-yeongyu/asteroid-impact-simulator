@@ -1,0 +1,21 @@
+{
+  "install": {
+    "prompt": "小行星撞击模拟器?",
+    "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。",
+    "button": "下载",
+    "dismiss": "取消"
+  },
+  "offline": {
+    "notice": "你已离线. Some features may be limited.",
+    "cachedData": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+  },
+  "update": {
+    "available": "本地化科学说明：小行星撞击模型、公式、引用和限制。",
+    "description": "本地化科学说明：小行星撞击模型、公式、引用和限制。",
+    "button": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+  },
+  "serviceWorker": {
+    "registered": "本地化科学说明：小行星撞击模型、公式、引用和限制。",
+    "failed": "本地化科学说明：小行星撞击模型、公式、引用和限制。"
+  }
+}
