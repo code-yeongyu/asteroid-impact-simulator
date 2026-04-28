@@ -26,6 +26,9 @@ describe('Cloudflare static asset headers', () => {
     expect(globalRule).toContain('X-Frame-Options: DENY');
     expect(globalRule).toContain('Content-Security-Policy: default-src');
     expect(globalRule).toContain("frame-ancestors 'none'");
+    expect(globalRule).toContain('__CSP_SCRIPT_HASHES__');
+    expect(globalRule).not.toContain("script-src 'self' 'unsafe-inline'");
+    expect(globalRule).not.toContain('unsafe-eval');
     expect(headers).not.toContain('\n!');
   });
 });
