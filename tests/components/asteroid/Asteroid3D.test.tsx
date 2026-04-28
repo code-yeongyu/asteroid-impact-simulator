@@ -27,7 +27,7 @@ window.ResizeObserver = ResizeObserver;
 
 // Mock WebGL context to force fallback for testing
 const mockGetContext: Mock = vi.fn();
-HTMLCanvasElement.prototype.getContext = mockGetContext as unknown as typeof HTMLCanvasElement.prototype.getContext;
+HTMLCanvasElement.prototype.getContext = mockGetContext;
 
 describe('Asteroid3D', () => {
   beforeEach(() => {
