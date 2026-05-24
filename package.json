@@ -52,7 +52,7 @@
     "i18next-icu": "^2.0.0",
     "i18next-resources-to-backend": "^1.2.0",
     "intl-messageformat": "^10.5.0",
-    "katex": "^0.16.0",
+    "katex": "^0.17.0",
     "maplibre-gl": "^5.24.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
