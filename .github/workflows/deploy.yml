@@ -42,7 +42,9 @@ jobs:
         run: |
           test -f dist/client/_headers
           if grep -q '__CSP_SCRIPT_HASHES__' dist/client/_headers; then exit 1; fi
-          if grep -Eq "script-src.*'unsafe-inline'|unsafe-eval" dist/client/_headers; then exit 1; fi
+          if grep -qi "unsafe-eval" dist/client/_headers; then exit 1; fi
+          script_src="$(sed -nE "s/.*script-src ([^;]+);.*/\1/Ip" dist/client/_headers)"
+          if printf '%s\n' "$script_src" | grep -qi "'unsafe-inline'"; then exit 1; fi
       - name: Deploy Worker
         run: bunx wrangler@4.85 deploy
         env:
