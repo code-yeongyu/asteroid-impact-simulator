@@ -22,7 +22,7 @@
         "framer-motion": "^12.38.0",
         "i18next": "^26.0.3",
         "i18next-browser-languagedetector": "^8.0.0",
-        "i18next-chained-backend": "^4.6.0",
+        "i18next-chained-backend": "^5.0.4",
         "i18next-http-backend": "^3.0.0",
         "i18next-icu": "^2.0.0",
         "i18next-resources-to-backend": "^1.2.0",
@@ -1557,7 +1557,7 @@
 
     "i18next-browser-languagedetector": ["i18next-browser-languagedetector@8.2.1", "", { "dependencies": { "@babel/runtime": "^7.23.2" } }, "sha512-bZg8+4bdmaOiApD7N7BPT9W8MLZG+nPTOFlLiJiT8uzKXFjhxw4v2ierCXOwB5sFDMtuA5G4kgYZ0AznZxQ/cw=="],
 
-    "i18next-chained-backend": ["i18next-chained-backend@4.6.3", "", { "dependencies": { "@babel/runtime": "^7.23.2" } }, "sha512-Yg4hAKg/98zRAMQs87vJSNevTzaPPrYF3Eb7Kpx+UEaaXLd3p69g7dulAL+hpmZQHeMQ/5gFqHVtdwva53mB0Q=="],
+    "i18next-chained-backend": ["i18next-chained-backend@5.0.5", "", { "dependencies": { "@babel/runtime": "^7.28.4" } }, "sha512-ThdtKUcNdk/zrSuzQyz2t4uH1McomKXP/t7GOf9Cm1oabDlJ6ZbQQJkLB9VlUErL9+45baFHv/ipzgi9MOotUg=="],
 
     "i18next-http-backend": ["i18next-http-backend@3.0.6", "", { "dependencies": { "cross-fetch": "4.1.0" } }, "sha512-mBOqy8993jtqAoj6XaI1XeC/8/9v6EPS+681ziegrPvTB0DoaCY7PpTS0SpY56qLMoS4OI1TZEM2Zf59zNh05w=="],
 
