@@ -115,7 +115,7 @@
     "vite": "^7.0.0",
     "vite-plugin-pwa": "^1.2.0",
     "vitest": "^3.0.0",
-    "wrangler": "^4.85.0"
+    "wrangler": "4.114.0"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
