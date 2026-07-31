@@ -13,15 +13,15 @@ The app is served mostly as static assets from Cloudflare Workers Static Assets.
 Current policy in `public/_headers`:
 
 ```text
-default-src 'self'; script-src 'self' __CSP_SCRIPT_HASHES__ https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://tiles.openfreemap.org https://*.cloudflareinsights.com; worker-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+default-src 'self'; script-src 'self' __CSP_SCRIPT_HASHES__; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
 ```
 
 - `default-src 'self'`: deny everything by default except same-origin resources.
-- `script-src 'self' __CSP_SCRIPT_HASHES__ https://static.cloudflareinsights.com`: allow app scripts, build-time hashes for inline scripts, and Cloudflare Insights. No `unsafe-eval`; production Tailwind v4 does not require it.
+- `script-src 'self' __CSP_SCRIPT_HASHES__`: allow app scripts and build-time hashes for inline scripts. No `unsafe-eval`; production Tailwind v4 does not require it.
 - `style-src 'self' 'unsafe-inline'`: allow same-origin CSS and runtime style attributes inserted by UI/map libraries. This is limited to styles; script execution still requires self or hash.
 - `img-src 'self' data: blob: https:`: allow generated local imagery, data/blob previews, and remote map/image assets.
 - `font-src 'self' data:`: allow app fonts plus small data-font fallbacks.
-- `connect-src 'self' https://tiles.openfreemap.org https://*.cloudflareinsights.com`: allow same-origin app requests, OpenFreeMap tiles/styles, and Cloudflare Insights telemetry.
+- `connect-src 'self' https://tiles.openfreemap.org`: allow same-origin app requests and OpenFreeMap tiles/styles.
 - `worker-src 'self' blob:`: allow the PWA service worker and library-created blob workers.
 - `frame-ancestors 'none'`: modern CSP 3 clickjacking protection. This is preferred over relying only on `X-Frame-Options`.
 - `base-uri 'self'`: prevent injected `<base>` tags from rewriting relative URLs.
@@ -38,7 +38,7 @@ default-src 'self'; script-src 'self' __CSP_SCRIPT_HASHES__ https://static.cloud
 
 No externally loaded application scripts are planned. If a third-party script becomes necessary, it must have Subresource Integrity and a pinned versioned URL before adding its host to `script-src`.
 
-Cloudflare Insights is the only allowed external script host. It is controlled by Cloudflare, loaded from `https://static.cloudflareinsights.com`, and isolated from app code by the CSP source list.
+No external application scripts are allowed by the current CSP.
 
 ## Verification
 
